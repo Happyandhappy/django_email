@@ -1,0 +1,872 @@
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Boris Chervenkov <office@sentido.bg>, 2012
+# Claude Paroz <claude@2xlibre.net>, 2014
+# Jannis Leidel <jannis@leidel.info>, 2011
+# Lyuboslav  Petrov <petrov.lyuboslav@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: django\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-15 15:33+0200\n"
+"PO-Revision-Date: 2015-04-01 00:20+0157\n"
+"Last-Translator:   <cninov@gmail.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/django/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.7.4\n"
+
+#: django/contrib/admin/actions.py:50
+#, python-format
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr "Успешно изтрити %(count)d %(items)s ."
+
+#: django/contrib/admin/actions.py:62 django/contrib/admin/options.py:1664
+#, python-format
+msgid "Cannot delete %(name)s"
+msgstr "Не можете да изтриете %(name)s"
+
+#: django/contrib/admin/actions.py:64 django/contrib/admin/options.py:1666
+msgid "Are you sure?"
+msgstr "Сигурни ли сте?"
+
+#: django/contrib/admin/actions.py:84
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Изтриване на избраните %(verbose_name_plural)s"
+
+#: django/contrib/admin/apps.py:11
+msgid "Administration"
+msgstr "Администрация"
+
+#: django/contrib/admin/filters.py:104 django/contrib/admin/filters.py:199
+#: django/contrib/admin/filters.py:239 django/contrib/admin/filters.py:276
+#: django/contrib/admin/filters.py:387
+msgid "All"
+msgstr "Всички"
+
+#: django/contrib/admin/filters.py:240
+msgid "Yes"
+msgstr "Да"
+
+#: django/contrib/admin/filters.py:241
+msgid "No"
+msgstr "Не"
+
+#: django/contrib/admin/filters.py:255
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: django/contrib/admin/filters.py:315
+msgid "Any date"
+msgstr "Коя-да-е дата"
+
+#: django/contrib/admin/filters.py:316
+msgid "Today"
+msgstr "Днес"
+
+#: django/contrib/admin/filters.py:320
+msgid "Past 7 days"
+msgstr "Последните 7 дни"
+
+#: django/contrib/admin/filters.py:324
+msgid "This month"
+msgstr "Този месец"
+
+#: django/contrib/admin/filters.py:328
+msgid "This year"
+msgstr "Тази година"
+
+#: django/contrib/admin/forms.py:14
+#, python-format
+msgid ""
+"Please enter the correct %(username)s and password for a staff account. Note"
+" that both fields may be case-sensitive."
+msgstr ""
+"Моля въведете правилния %(username)s и парола за администраторски акаунт. "
+"Моля забележете, че и двете полета са с главни и малки букви."
+
+#: django/contrib/admin/helpers.py:23
+msgid "Action:"
+msgstr "Действие:"
+
+#: django/contrib/admin/models.py:25
+msgid "action time"
+msgstr "време на действие"
+
+#: django/contrib/admin/models.py:26
+#: django/contrib/admin/templates/admin/object_history.html:23
+msgid "User"
+msgstr "Потребител"
+
+#: django/contrib/admin/models.py:28
+msgid "object id"
+msgstr "id на обекта"
+
+#: django/contrib/admin/models.py:29
+msgid "object repr"
+msgstr "repr на обекта"
+
+#: django/contrib/admin/models.py:30
+msgid "action flag"
+msgstr "флаг за действие"
+
+#: django/contrib/admin/models.py:31
+msgid "change message"
+msgstr "Промяна"
+
+#: django/contrib/admin/models.py:36
+msgid "log entry"
+msgstr "Лог"
+
+#: django/contrib/admin/models.py:37
+msgid "log entries"
+msgstr "Логове"
+
+#: django/contrib/admin/models.py:46
+#, python-format
+msgid "Added \"%(object)s\"."
+msgstr "Добавен \"%(object)s\"."
+
+#: django/contrib/admin/models.py:48
+#, python-format
+msgid "Changed \"%(object)s\" - %(changes)s"
+msgstr "Променени \"%(object)s\" - %(changes)s"
+
+#: django/contrib/admin/models.py:53
+#, python-format
+msgid "Deleted \"%(object)s.\""
+msgstr "Изтрит \"%(object)s.\""
+
+#: django/contrib/admin/models.py:55
+msgid "LogEntry Object"
+msgstr "LogEntry обект"
+
+#: django/contrib/admin/options.py:227 django/contrib/admin/options.py:256
+msgid "None"
+msgstr "Празно"
+
+#: django/contrib/admin/options.py:996
+#, python-format
+msgid "Changed %s."
+msgstr "Променено %s."
+
+#: django/contrib/admin/options.py:996 django/contrib/admin/options.py:1011
+#: django/contrib/admin/options.py:1856
+msgid "and"
+msgstr "и"
+
+#: django/contrib/admin/options.py:1001
+#, python-format
+msgid "Added %(name)s \"%(object)s\"."
+msgstr "Добавени %(name)s \"%(object)s\"."
+
+#: django/contrib/admin/options.py:1010
+#, python-format
+msgid "Changed %(list)s for %(name)s \"%(object)s\"."
+msgstr "Променени %(list)s за %(name)s \"%(object)s\"."
+
+#: django/contrib/admin/options.py:1015
+#, python-format
+msgid "Deleted %(name)s \"%(object)s\"."
+msgstr "Изтрити %(name)s \"%(object)s\"."
+
+#: django/contrib/admin/options.py:1019
+msgid "No fields changed."
+msgstr "Няма променени полета."
+
+#: django/contrib/admin/options.py:1143 django/contrib/admin/options.py:1183
+#, python-format
+msgid ""
+"The %(name)s \"%(obj)s\" was added successfully. You may edit it again "
+"below."
+msgstr ""
+"Обектът %(name)s \"%(obj)s\" бе успешно добавен.  Може да го редактирате по-"
+"долу.  "
+
+#: django/contrib/admin/options.py:1154
+#, python-format
+msgid ""
+"The %(name)s \"%(obj)s\" was added successfully. You may add another "
+"%(name)s below."
+msgstr ""
+"%(name)s и \"%(obj)s\" са добавени успешно. Можете да добавите още едно "
+"%(name)s по-долу."
+
+#: django/contrib/admin/options.py:1161
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was added successfully."
+msgstr "Обектът %(name)s \"%(obj)s\" бе успешно добавен.  "
+
+#: django/contrib/admin/options.py:1176
+#, python-format
+msgid ""
+"The %(name)s \"%(obj)s\" was changed successfully. You may edit it again "
+"below."
+msgstr ""
+"%(name)s \"%(obj)s\" Бяха променено успешно. Можете да го промените отново "
+"по-долу."
+
+#: django/contrib/admin/options.py:1193
+#, python-format
+msgid ""
+"The %(name)s \"%(obj)s\" was changed successfully. You may add another "
+"%(name)s below."
+msgstr ""
+"%(name)s \"%(obj)s\" бяха променени успешно. Можете да добавите ново "
+"%(name)s по-долу."
+
+#: django/contrib/admin/options.py:1202
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was changed successfully."
+msgstr "Обектът %(name)s \"%(obj)s\" бе успешно актуализиран.  "
+
+#: django/contrib/admin/options.py:1285 django/contrib/admin/options.py:1529
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr ""
+"Елементите трябва да бъдат избрани, за да се извършат действия по тях. Няма "
+"променени елементи."
+
+#: django/contrib/admin/options.py:1304
+msgid "No action selected."
+msgstr "Няма избрани действия."
+
+#: django/contrib/admin/options.py:1316
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr "Обектът %(name)s \"%(obj)s\" бе успешно изтрит.  "
+
+#: django/contrib/admin/options.py:1397 django/contrib/admin/options.py:1641
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr "%(name)s обект с първичен ключ %(key)r не съществува."
+
+#: django/contrib/admin/options.py:1447
+#, python-format
+msgid "Add %s"
+msgstr "Добави %s"
+
+#: django/contrib/admin/options.py:1447
+#, python-format
+msgid "Change %s"
+msgstr "Промени %s"
+
+#: django/contrib/admin/options.py:1508
+msgid "Database error"
+msgstr "Грешка в базата данни"
+
+#: django/contrib/admin/options.py:1571
+#, python-format
+msgid "%(count)s %(name)s was changed successfully."
+msgid_plural "%(count)s %(name)s were changed successfully."
+msgstr[0] "%(count)s %(name)s беше променено успешно."
+msgstr[1] "%(count)s %(name)s бяха променени успешно."
+
+#: django/contrib/admin/options.py:1598
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] "%(total_count)s е избран"
+msgstr[1] "Всички %(total_count)s са избрани"
+
+#: django/contrib/admin/options.py:1604
+#, python-format
+msgid "0 of %(cnt)s selected"
+msgstr "0 от %(cnt)s са избрани"
+
+#: django/contrib/admin/options.py:1703
+#, python-format
+msgid "Change history: %s"
+msgstr "История на промените: %s"
+
+#. Translators: Model verbose name and instance representation, suitable to be
+#. an item in a list
+#: django/contrib/admin/options.py:1850
+#, python-format
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+#: django/contrib/admin/options.py:1857
+#, python-format
+msgid ""
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
+msgstr ""
+"Изтриването на избраните %(class_name)s %(instance)s ще наложи изтриването "
+"на следните защитени и свързани обекти: %(related_objects)s"
+
+#: django/contrib/admin/sites.py:36
+#: django/contrib/admin/templates/admin/base_site.html:3
+msgid "Django site admin"
+msgstr "Административен панел"
+
+#: django/contrib/admin/sites.py:39
+#: django/contrib/admin/templates/admin/base_site.html:6
+msgid "Django administration"
+msgstr "Административен панел"
+
+#: django/contrib/admin/sites.py:42
+msgid "Site administration"
+msgstr "Администрация на сайта"
+
+#: django/contrib/admin/sites.py:345
+#: django/contrib/admin/templates/admin/login.html:47
+#: django/contrib/admin/templates/registration/password_reset_complete.html:18
+#: django/contrib/admin/tests.py:113
+msgid "Log in"
+msgstr "Вход"
+
+#: django/contrib/admin/sites.py:472
+#, python-format
+msgid "%(app)s administration"
+msgstr "Администрация на %(app)s"
+
+#: django/contrib/admin/templates/admin/404.html:4
+#: django/contrib/admin/templates/admin/404.html:8
+msgid "Page not found"
+msgstr "Страница не е намерена"
+
+#: django/contrib/admin/templates/admin/404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr "Съжалявам, но исканата страница не е намерена."
+
+#: django/contrib/admin/templates/admin/500.html:6
+#: django/contrib/admin/templates/admin/app_index.html:9
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:13
+#: django/contrib/admin/templates/admin/base.html:50
+#: django/contrib/admin/templates/admin/change_form.html:18
+#: django/contrib/admin/templates/admin/change_list.html:40
+#: django/contrib/admin/templates/admin/delete_confirmation.html:8
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:8
+#: django/contrib/admin/templates/admin/invalid_setup.html:6
+#: django/contrib/admin/templates/admin/object_history.html:6
+#: django/contrib/admin/templates/registration/logged_out.html:4
+#: django/contrib/admin/templates/registration/password_change_done.html:6
+#: django/contrib/admin/templates/registration/password_change_form.html:7
+#: django/contrib/admin/templates/registration/password_reset_complete.html:6
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:6
+#: django/contrib/admin/templates/registration/password_reset_done.html:6
+#: django/contrib/admin/templates/registration/password_reset_form.html:6
+msgid "Home"
+msgstr "Начало"
+
+#: django/contrib/admin/templates/admin/500.html:7
+msgid "Server error"
+msgstr "Сървърна грешка"
+
+#: django/contrib/admin/templates/admin/500.html:11
+msgid "Server error (500)"
+msgstr "Сървърна грешка (500)"
+
+#: django/contrib/admin/templates/admin/500.html:14
+msgid "Server Error <em>(500)</em>"
+msgstr "Сървърна грешка <em>(500)</em>"
+
+#: django/contrib/admin/templates/admin/500.html:15
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Станала е грешка. Съобщава се на администраторите на сайта по електронна "
+"поща и трябва да бъде поправено скоро. Благодарим ви за търпението."
+
+#: django/contrib/admin/templates/admin/actions.html:4
+msgid "Run the selected action"
+msgstr "Стартирай избраните действия"
+
+#: django/contrib/admin/templates/admin/actions.html:4
+msgid "Go"
+msgstr "Напред"
+
+#: django/contrib/admin/templates/admin/actions.html:11
+msgid "Click here to select the objects across all pages"
+msgstr "Щракнете тук, за да изберете обектите във всички страници"
+
+#: django/contrib/admin/templates/admin/actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Избери всички %(total_count)s %(module_name)s"
+
+#: django/contrib/admin/templates/admin/actions.html:13
+msgid "Clear selection"
+msgstr "Изтрий избраното"
+
+#: django/contrib/admin/templates/admin/auth/user/add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user"
+" options."
+msgstr ""
+"Първо въведете потребител и парола. След това ще можете да редактирате "
+"повече детайли.  "
+
+#: django/contrib/admin/templates/admin/auth/user/add_form.html:8
+msgid "Enter a username and password."
+msgstr "Въведете потребителско име и парола."
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:17
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:51
+#: django/contrib/admin/templates/admin/base.html:39
+#: django/contrib/admin/templates/registration/password_change_done.html:3
+#: django/contrib/admin/templates/registration/password_change_form.html:4
+msgid "Change password"
+msgstr "Промени парола"
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:27
+#: django/contrib/admin/templates/admin/change_form.html:47
+#: django/contrib/admin/templates/admin/change_list.html:67
+#: django/contrib/admin/templates/admin/login.html:17
+#: django/contrib/admin/templates/registration/password_change_form.html:21
+msgid "Please correct the error below."
+msgstr "Моля, поправете грешките по-долу."
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:27
+#: django/contrib/admin/templates/admin/change_form.html:47
+#: django/contrib/admin/templates/admin/change_list.html:67
+#: django/contrib/admin/templates/admin/login.html:17
+#: django/contrib/admin/templates/registration/password_change_form.html:21
+msgid "Please correct the errors below."
+msgstr "Моля поправете грешките по-долу."
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:31
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr "Въведете нова парола за потребител <strong>%(username)s</strong>."
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:38
+msgid "Password"
+msgstr "Парола"
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:44
+#: django/contrib/admin/templates/registration/password_change_form.html:42
+msgid "Password (again)"
+msgstr "Парола (отново)"
+
+#: django/contrib/admin/templates/admin/auth/user/change_password.html:45
+msgid "Enter the same password as above, for verification."
+msgstr "Въведете същата парола още веднъж за проверка.  "
+
+#: django/contrib/admin/templates/admin/base.html:30
+msgid "Welcome,"
+msgstr "Добре дошли,"
+
+#: django/contrib/admin/templates/admin/base.html:36
+#: django/contrib/admin/templates/registration/password_change_done.html:3
+#: django/contrib/admin/templates/registration/password_change_form.html:4
+msgid "Documentation"
+msgstr "Документация"
+
+#: django/contrib/admin/templates/admin/base.html:41
+#: django/contrib/admin/templates/registration/password_change_done.html:3
+#: django/contrib/admin/templates/registration/password_change_form.html:4
+msgid "Log out"
+msgstr "Изход"
+
+#: django/contrib/admin/templates/admin/change_form.html:21
+#: django/contrib/admin/templates/admin/index.html:31
+msgid "Add"
+msgstr "Добави"
+
+#: django/contrib/admin/templates/admin/change_form.html:33
+#: django/contrib/admin/templates/admin/object_history.html:10
+msgid "History"
+msgstr "История"
+
+#: django/contrib/admin/templates/admin/change_form.html:35
+#: django/contrib/admin/templates/admin/edit_inline/stacked.html:9
+#: django/contrib/admin/templates/admin/edit_inline/tabular.html:30
+msgid "View on site"
+msgstr "Разгледай в сайта"
+
+#: django/contrib/admin/templates/admin/change_list.html:58
+#, python-format
+msgid "Add %(name)s"
+msgstr "Добави %(name)s"
+
+#: django/contrib/admin/templates/admin/change_list.html:78
+msgid "Filter"
+msgstr "Филтър"
+
+#: django/contrib/admin/templates/admin/change_list_results.html:17
+msgid "Remove from sorting"
+msgstr "Премахни от подреждането"
+
+#: django/contrib/admin/templates/admin/change_list_results.html:18
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Ред на подреждане: %(priority_number)s"
+
+#: django/contrib/admin/templates/admin/change_list_results.html:19
+msgid "Toggle sorting"
+msgstr "Обърни подреждането"
+
+#: django/contrib/admin/templates/admin/delete_confirmation.html:12
+#: django/contrib/admin/templates/admin/submit_line.html:6
+msgid "Delete"
+msgstr "Изтрий"
+
+#: django/contrib/admin/templates/admin/delete_confirmation.html:19
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"Изтриването на обекта %(object_name)s '%(escaped_object)s' не може да бъде "
+"извършено без да се изтрият и някои свързани обекти, върху които обаче "
+"нямате права: "
+
+#: django/contrib/admin/templates/admin/delete_confirmation.html:27
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the"
+" following protected related objects:"
+msgstr ""
+"Изтриването на %(object_name)s '%(escaped_object)s' ще доведе до "
+"заличаването на следните защитени свързани обекти:"
+
+#: django/contrib/admin/templates/admin/delete_confirmation.html:35
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+"Наистина ли искате да изтриете обектите %(object_name)s "
+"\"%(escaped_object)s\"? Следните свързани елементи също ще бъдат изтрити:"
+
+#: django/contrib/admin/templates/admin/delete_confirmation.html:40
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:45
+msgid "Yes, I'm sure"
+msgstr "Да, сигурен съм"
+
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:11
+msgid "Delete multiple objects"
+msgstr "Изтриване на множество обекти"
+
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"Изтриването на избраните %(objects_name)s ще доведе до изтриване на свързани"
+" обекти. Вашият профил няма права за изтриване на следните типове обекти:"
+
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+"Изтриването на избраните %(objects_name)s ще доведе до заличаването на "
+"следните защитени свързани обекти:"
+
+#: django/contrib/admin/templates/admin/delete_selected_confirmation.html:34
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"Наистина ли искате да изтриете избраните %(objects_name)s? Всички изброени "
+"обекти и свързаните с тях ще бъдат изтрити:"
+
+#: django/contrib/admin/templates/admin/edit_inline/stacked.html:26
+#: django/contrib/admin/templates/admin/edit_inline/tabular.html:78
+msgid "Remove"
+msgstr "Премахване"
+
+#: django/contrib/admin/templates/admin/edit_inline/stacked.html:27
+#: django/contrib/admin/templates/admin/edit_inline/tabular.html:77
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Добави %(verbose_name)s"
+
+#: django/contrib/admin/templates/admin/edit_inline/tabular.html:17
+msgid "Delete?"
+msgstr "Изтриване?"
+
+#: django/contrib/admin/templates/admin/filter.html:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " По %(filter_title)s "
+
+#: django/contrib/admin/templates/admin/index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr "Моделите в %(name)s приложение"
+
+#: django/contrib/admin/templates/admin/index.html:37
+msgid "Change"
+msgstr "Списък"
+
+#: django/contrib/admin/templates/admin/index.html:47
+msgid "You don't have permission to edit anything."
+msgstr "Нямате права да редактирате каквото и да е."
+
+#: django/contrib/admin/templates/admin/index.html:55
+msgid "Recent Actions"
+msgstr "Последни действия"
+
+#: django/contrib/admin/templates/admin/index.html:56
+msgid "My Actions"
+msgstr "Моите действия"
+
+#: django/contrib/admin/templates/admin/index.html:60
+msgid "None available"
+msgstr "Няма налични"
+
+#: django/contrib/admin/templates/admin/index.html:74
+msgid "Unknown content"
+msgstr "Неизвестно съдържание"
+
+#: django/contrib/admin/templates/admin/invalid_setup.html:12
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate"
+" database tables have been created, and make sure the database is readable "
+"by the appropriate user."
+msgstr ""
+"Проблем с базата данни. Проверете дали необходимите таблици са създадени и "
+"дали съответния потребител има необходимите права за достъп.  "
+
+#: django/contrib/admin/templates/admin/login.html:37
+msgid "Password:"
+msgstr "Парола:"
+
+#: django/contrib/admin/templates/admin/login.html:43
+msgid "Forgotten your password or username?"
+msgstr "Забравена парола или потребителско име?"
+
+#: django/contrib/admin/templates/admin/object_history.html:22
+msgid "Date/time"
+msgstr "Дата/час"
+
+#: django/contrib/admin/templates/admin/object_history.html:24
+msgid "Action"
+msgstr "Действие"
+
+#: django/contrib/admin/templates/admin/object_history.html:38
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this"
+" admin site."
+msgstr ""
+"Този обект няма исторя на промените. Вероятно не е добавен чрез "
+"административния панел.  "
+
+#: django/contrib/admin/templates/admin/pagination.html:10
+msgid "Show all"
+msgstr "Покажи всички"
+
+#: django/contrib/admin/templates/admin/pagination.html:11
+#: django/contrib/admin/templates/admin/submit_line.html:3
+msgid "Save"
+msgstr "Запис"
+
+#: django/contrib/admin/templates/admin/search_form.html:7
+msgid "Search"
+msgstr "Търсене"
+
+#: django/contrib/admin/templates/admin/search_form.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s резултат"
+msgstr[1] "%(counter)s резултати"
+
+#: django/contrib/admin/templates/admin/search_form.html:9
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "%(full_result_count)s общо"
+
+#: django/contrib/admin/templates/admin/submit_line.html:8
+msgid "Save as new"
+msgstr "Запис като нов"
+
+#: django/contrib/admin/templates/admin/submit_line.html:9
+msgid "Save and add another"
+msgstr "Запис и нов"
+
+#: django/contrib/admin/templates/admin/submit_line.html:10
+msgid "Save and continue editing"
+msgstr "Запис и продължение"
+
+#: django/contrib/admin/templates/registration/logged_out.html:8
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Благодарим Ви, че използвахте този сайт днес."
+
+#: django/contrib/admin/templates/registration/logged_out.html:10
+msgid "Log in again"
+msgstr "Влез пак"
+
+#: django/contrib/admin/templates/registration/password_change_done.html:7
+#: django/contrib/admin/templates/registration/password_change_form.html:8
+msgid "Password change"
+msgstr "Промяна на парола"
+
+#: django/contrib/admin/templates/registration/password_change_done.html:14
+msgid "Your password was changed."
+msgstr "Паролата ви е променена."
+
+#: django/contrib/admin/templates/registration/password_change_form.html:26
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new"
+" password twice so we can verify you typed it in correctly."
+msgstr ""
+"Въведете старата си парола /за сигурност/. След това въведете желаната нова "
+"парола два пъти от съображения за сигурност"
+
+#: django/contrib/admin/templates/registration/password_change_form.html:32
+msgid "Old password"
+msgstr "Стара парола"
+
+#: django/contrib/admin/templates/registration/password_change_form.html:37
+msgid "New password"
+msgstr "Нова парола"
+
+#: django/contrib/admin/templates/registration/password_change_form.html:48
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:24
+msgid "Change my password"
+msgstr "Промяна на парола"
+
+#: django/contrib/admin/templates/registration/password_reset_complete.html:7
+#: django/contrib/admin/templates/registration/password_reset_done.html:7
+#: django/contrib/admin/templates/registration/password_reset_form.html:7
+msgid "Password reset"
+msgstr "Нова парола"
+
+#: django/contrib/admin/templates/registration/password_reset_complete.html:16
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Паролата е променена. Вече можете да се впишете"
+
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:7
+msgid "Password reset confirmation"
+msgstr "Парола за потвърждение"
+
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:17
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Моля, въведете новата парола два пъти, за да може да се потвърди, че сте я "
+"написали правилно."
+
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:21
+msgid "New password:"
+msgstr "Нова парола:"
+
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:23
+msgid "Confirm password:"
+msgstr "Потвърдете паролата:"
+
+#: django/contrib/admin/templates/registration/password_reset_confirm.html:29
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Връзката за възстановяване на паролата е невалидна, може би защото вече е "
+"използвана. Моля, поискайте нова промяна на паролата."
+
+#: django/contrib/admin/templates/registration/password_reset_done.html:15
+msgid ""
+"We've emailed you instructions for setting your password. You should be "
+"receiving them shortly."
+msgstr ""
+"Изпратихме Ви имейл за настройките по вашата парола. Би трябвало да ги "
+"получите скоро."
+
+#: django/contrib/admin/templates/registration/password_reset_done.html:17
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Ако не получите имейл, моля подсигурете се, че сте въвели правилно адреса с "
+"който сте се регистрирал/a и/или проверете спам папката във вашата поща."
+
+#: django/contrib/admin/templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"Вие сте получили този имейл, защото сте поискали да промените паролата за "
+"вашия потребителски акаунт в %(site_name)s."
+
+#: django/contrib/admin/templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Моля, отидете на следната страница и изберете нова парола:"
+
+#: django/contrib/admin/templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr "Вашето потребителско име, в случай, че сте го забравили:"
+
+#: django/contrib/admin/templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr "Благодарим, че ползвате сайта ни!"
+
+#: django/contrib/admin/templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "Екипът на %(site_name)s"
+
+#: django/contrib/admin/templates/registration/password_reset_form.html:15
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"Забравили сте си паролата? Въведете своя имейл адрес по-долу, а ние ще ви "
+"изпратим инструкции за създаване на нова."
+
+#: django/contrib/admin/templates/registration/password_reset_form.html:19
+msgid "Email address:"
+msgstr "E-mail адреси:"
+
+#: django/contrib/admin/templates/registration/password_reset_form.html:19
+msgid "Reset my password"
+msgstr "Нова парола"
+
+#: django/contrib/admin/templatetags/admin_list.py:379
+msgid "All dates"
+msgstr "Всички дати"
+
+#: django/contrib/admin/views/main.py:36
+msgid "(None)"
+msgstr "-"
+
+#: django/contrib/admin/views/main.py:112
+#, python-format
+msgid "Select %s"
+msgstr "Изберете %s"
+
+#: django/contrib/admin/views/main.py:114
+#, python-format
+msgid "Select %s to change"
+msgstr "Изберете %s за промяна"
+
+#: django/contrib/admin/widgets.py:91
+msgid "Date:"
+msgstr "Дата:"
+
+#: django/contrib/admin/widgets.py:92
+msgid "Time:"
+msgstr "Час:"
+
+#: django/contrib/admin/widgets.py:176
+msgid "Lookup"
+msgstr "Търсене"
+
+#: django/contrib/admin/widgets.py:280
+msgid "Add Another"
+msgstr "Добави друг"
+
+#: django/contrib/admin/widgets.py:333
+msgid "Currently:"
+msgstr "Сега:"
+
+#: django/contrib/admin/widgets.py:334
+msgid "Change:"
+msgstr "Промени"

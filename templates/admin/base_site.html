@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+{% load i18n %}{% load admin_static bootstrapped_goodies_tags %}{% load user_agents %}
+
+{% block title %}{% render_with_template_if_exist "admin/admin_title.html" "Django administration" %} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+
+    <a class="navbar-brand" href="{% url 'admin:index' %}"><img src="http://vhodove.bg/images/Logo/logo.png" alt="" /></a>
+
+  {% if filtered_entrance%}
+    <h3 style="white-space:pre;font-size:20px;padding-left:110px;">{{filtered_entrance.title}}</h3>
+  {% endif %}
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

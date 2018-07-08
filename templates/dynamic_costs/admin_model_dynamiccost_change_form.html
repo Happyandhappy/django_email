@@ -1,0 +1,7 @@
+{% if original and original.apartmentdynamiccost_set.count %}
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.btn.btn-primary.default').before('<input type="submit" value="Създай като задачи" class="btn btn-info" name="_tasks" /> ');
+    });
+</script>
+{% endif %}

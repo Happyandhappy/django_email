@@ -1,0 +1,28 @@
+<style type="text/css">
+input[name="_addanother"],input[name="_continue"],input[name="_saveasnew"]{
+    display: none;
+}
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+        jQuery('.fields').append('<div class="row"><div class="col-md-12 form-group" id="sum_to_pay"><div class="control-label col-md-3"><label class="required" for="id_period">Сума за плащане:</label></div><div style="line-height:33px;" class="controls col-md-9">-</div></div></div>');
+
+        if(jQuery('#id_period').val()=='')
+        {
+            jQuery('#id_period').val(0);
+        }
+        
+        jQuery('#id_period').keyup(function(){
+            jQuery.get('/tasks/paymentahead/get_apartment_payment_fee/', {'apartment_id': jQuery('#id_apartment').val()},function(d){
+                jQuery('#sum_to_pay .col-md-9').html((parseFloat(d)*parseInt(jQuery('#id_period').val()))+' лв.');
+            });
+        });
+
+        jQuery('#id_apartment').change(function(){
+            jQuery.get('/tasks/paymentahead/get_apartment_payment_fee/', {'apartment_id': jQuery('#id_apartment').val()},function(d){
+                jQuery('#sum_to_pay .col-md-9').html((parseFloat(d)*parseInt(jQuery('#id_period').val()))+' лв.');
+            });
+        });
+    });
+</script>

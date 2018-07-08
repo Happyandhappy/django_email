@@ -1,0 +1,9 @@
+<script>
+
+    jQuery(document).ready(function(){
+        jQuery('.field-detach_client a').each(function(){
+            jQuery(this).attr('href',jQuery(this).attr('href')+'?return='+encodeURIComponent(location.href));
+        });
+    });
+    
+</script>

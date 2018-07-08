@@ -1,0 +1,9 @@
+{% if user.is_superuser and original %}
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.btn.btn-primary.default').before('<input type="button" onclick="window.location.href=\'{% url "admin:generate_tasks" original.id %}\';" value="Създай месечните разходи като задачи" class="btn btn-info" name="_tasks" /> ');
+        jQuery('.btn.btn-primary.default').before('<input type="button" onclick="window.location.href=\'{% url "admin:generate_excel" original.id %}\';" value="Таблица на входа" class="btn btn-danger" /> ');
+        jQuery('.btn.btn-primary.default').before('<input type="button" onclick="window.location.href=\'{% url "admin:generate_contacts" original.id %}\';" value="Таблица с контакти" class="btn btn-warning" /> ');
+    });
+</script>
+{% endif %}

@@ -1,0 +1,12 @@
+<script>
+
+    jQuery(document).ready(function(){
+        jQuery('.field-position, .column-position').attr('align','center').css('text-align', 'center');
+        {% if user.is_superuser %}
+        jQuery('.results').after('<input type="button" style="margin-right:20px;margin-bottom:20px;" onclick="window.location.href=\'{% url "admin:generate_contacts" 0 %}\';" value="Свали таблица с всички контакти" class="btn btn-warning" />');
+
+        jQuery('.results').after('<input type="button" style="margin-right:20px;margin-bottom:20px;" onclick="window.location.href=\'{% url "admin:generate_static" 0 %}\';" value="Свали таблица със стационарни разходи" class="btn btn-danger" />');
+        {% endif %}
+    });
+    
+</script>

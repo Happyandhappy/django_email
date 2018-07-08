@@ -1,0 +1,292 @@
+{% load admin_static bootstrapped_goodies_tags %}{% load user_agents %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ LANGUAGE_CODE|default:"en-us" }}" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
+<head>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    {% block extrastyle %}{% endblock %}
+
+    <!-- Le styles, placed after extrastyle to correctly override default styling -->
+    {% if request.COOKIES.theme = 'dark' %}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/dark-bootstrap.css" %}" />
+    {% else %}
+    <link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet"/>
+    
+    {% endif %}
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    {% if request.COOKIES.theme = 'dark' %}
+
+    {% else %}
+    <link href="{% static "bootstrap/css/bootstrap-theme.min.css" %}" rel="stylesheet"/>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/overrides.css" %}" />
+    <link rel="stylesheet" type="text/css" media="print" href="{% static "admin/css/print.css" %}" />
+    <link rel="icon" href="http://static.vhodove.bg/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://static.vhodove.bg/favicon.ico" type="image/x-icon"/>
+
+    <!-- <link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "admin/css/base.css" %}{% endblock %}" /> -->
+    <script type="text/javascript">
+    //<![CDATA[
+        window.__admin_media_prefix__ = "{% filter escapejs %}{% static "admin/" %}{% endfilter %}";
+    //]]>
+    </script>
+    <script src="{% static "bootstrap/js/bootstrap.min.js" %}"></script>
+
+    {% block extrahead %}{% endblock %}
+
+    {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
+    <script type="text/javascript">
+    //<![CDATA[
+            (function($) {
+                $(document).ready(function() {
+                    $('input[type="submit"]').addClass('btn');
+                    $('[title]').tooltip();
+                });
+            }(jQuery));
+    //]]>
+    </script>
+</head>
+{% load i18n %}
+
+<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}">
+
+<!-- Container -->
+<div class="container">
+    <script type="text/javascript">
+    function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
+}
+
+function clearListCookies()
+{
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++)
+    {
+        var spcook =  cookies[i].split("=");
+        deleteCookie(spcook[0]);
+    }
+    function deleteCookie(cookiename)
+    {
+        var d = new Date();
+        d.setDate(d.getDate() - 1);
+        var expires = ";expires="+d;
+        var name=cookiename;
+        var value="";
+        document.cookie = name + "=" + value + expires + "; path=/acc/html";
+    }
+    window.location = ""; // TO REFRESH THE PAGE
+}
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.file-upload a').attr('target','_blank');
+    });
+</script>
+
+    {% if not is_popup %}
+    <!-- Header -->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="navbar-header">
+
+                  {% if request|is_pc %}
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    {% endif %}
+                    {% block branding %}{% endblock %}
+                    {% if request|is_pc %}
+                    <a href="javascript:;" style="top:5px;left:95px;position:absolute;display:inline-block;padding:10px;background:#eee;border:1px solid #333;" onclick="eraseCookie('theme');window.location.reload();"></a>
+                    <a href="javascript:;" style="top:30px;left:95px;position:absolute;display:inline-block;padding:10px;background:#333;border:1px solid #eee;" onclick="createCookie('theme','dark',365);window.location.reload();"></a>
+                    {% endif %}
+                </div>
+                <div class="navbar-collapse collapse navbar-{% if LANGUAGE_BIDI %}left{% else %}right{% endif %}">
+                    <ul class="nav navbar-nav">
+                        {% if user.is_active and user.is_staff %}
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{% trans 'Welcome,' %} <strong>{% filter force_escape %}{% firstof user.get_short_name user.get_username user.first_name user.username %}{% endfilter %}</strong> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                {% if user.has_usable_password %}
+                                <li><a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a></li>
+                                {% endif %}
+                                <li><a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a></li>
+                            </ul>
+                        </li>
+                        {% block languages %}
+                        <li class="divider-vertical"></li>
+                        {% language_selector %}
+                        {% endblock languages %}
+                        {% block logs %}
+                        {% comment %}
+                        <li class="dropdown" id="recent-actions-module">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{% trans 'Recent Actions' %} <b class="caret"></b></a>
+                            {% load log %}
+                            {% get_admin_log 10 as admin_log for_user user %}
+                            <ul class="dropdown-menu">
+                                {% for entry in admin_log %}
+                                <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+                                    <a href="{% if entry.is_deletion or not entry.get_admin_url %}#{% else %}{{ entry.get_admin_url }}{% endif %}">
+                                        <i class="icon-{% if entry.is_addition %}plus{% endif %}{% if entry.is_change %}edit{% endif %}{% if entry.is_deletion %}remove{% endif %}"></i>
+                                        {{ entry.object_repr }}
+                                        {% if entry.content_type %}
+                                        <span class="mini quiet">({% filter capfirst %}{% trans entry.content_type.name %}{% endfilter %})</span>
+                                        {% else %}
+                                        <span class="mini quiet">({% trans 'Unknown content' %})</span>
+                                        {% endif %}
+                                    </a>
+                                </li>
+                                {% empty %}
+                                <li class="disabled"><a href="#">{% trans 'None available' %}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        {% endcomment %}
+                        {% endblock %}
+                        {% block userlinks %}
+                        {% url 'django-admindocs-docroot' as docsroot %}
+                        {% if docsroot %}
+                        <li class="divider-vertical"></li>
+                        <li><a href="{{ docsroot }}">{% trans 'Documentation' %}</a></li>
+                        {% endif %}
+                        {% endblock %}
+                        {% endif %}
+                        {% block nav-global %}{% endblock %}
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <!-- END Header -->
+    <div class="row">
+        <div class="col-sm-12">
+            {% block breadcrumbs %}
+            {% endblock %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Content -->
+    <div id="content" class="{% block coltype %}colM{% endblock %}">
+        {% block navbar %}
+        <div class="navbar navbar-default">
+            <div class="navbar-inner">
+                {% block pretitle %}{% endblock %}
+                {% block content_title %}{% if title %}<a class="navbar-brand">{% render_with_template_if_exist title|lower|add:"/admin_app_name.html" title %}</a>{% endif %}{% endblock %}
+                {% block object-tools %}{% endblock %}
+            </div>
+        </div>
+        {% endblock navbar %}
+
+        {% block messages %}
+        {% if messages %}
+        <div class="row">
+            <div class="col-sm-12">
+                {% for message in messages %}
+                <div class="alert alert-info {% if message.tags %}{{ message.tags }}{% endif %}">
+                    {{ message }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endblock messages %}
+
+        {% block content %}{{ content }}{% endblock %}
+        {% block sidebar %}{% endblock %}
+    </div>
+    <!-- END Content -->
+    <button type="button" onclick="clearListCookies()">Рестартирай системата</button>
+    {% block footer %}<footer id="footer">
+
+
+
+    </footer>
+    
+    
+
+    <script>
+            function xpath(path) {
+                return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            }
+
+            var hideOnSmallScreen = function(){
+                if ($(window).width() < 640) {
+                    $(xpath('//*[@id="content-main"]/div/table[7]')).hide();
+                    $(xpath('//*[@id="auth"]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[6]')).hide();
+                    $(xpath('//*[@id="nomenclatures"]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[5]/tbody/tr[3]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[5]/tbody/tr[4]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[4]')).hide();
+                    $(xpath('//*[@id="documents"]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[3]')).hide();
+                    $(xpath('//*[@id="dynamic_costs"]')).hide();
+                    
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[3]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[4]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[5]')).hide();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[6]')).hide();
+                    
+                    $(xpath('//*[@id="content-main"]/div/table[1]')).hide();
+                    $(xpath('//*[@id="admin"]')).hide();
+                } else {
+                    $(xpath('//*[@id="content-main"]/div/table[7]')).show();
+                    $(xpath('//*[@id="auth"]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[6]')).show();
+                    $(xpath('//*[@id="nomenclatures"]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[5]/tbody/tr[3]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[5]/tbody/tr[4]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[4]')).show();
+                    $(xpath('//*[@id="documents"]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[3]')).show();
+                    $(xpath('//*[@id="dynamic_costs"]')).show();
+                    
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[3]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[4]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[5]')).show();
+                    $(xpath('//*[@id="content-main"]/div/table[2]/tbody/tr[6]')).show();
+                    
+                    $(xpath('//*[@id="content-main"]/div/table[1]')).show();
+                    $(xpath('//*[@id="admin"]')).show();
+                }
+            }
+
+        
+            $(document).ready(function() {
+                hideOnSmallScreen();
+
+                $(window).resize(function(){
+                    hideOnSmallScreen();
+                });
+            });
+        </script>
+    
+    {% endblock %}
+</div>
+<!-- END Container -->
+    
+</body>
+</html>

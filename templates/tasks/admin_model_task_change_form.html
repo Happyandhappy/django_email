@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#id_date_day').val(1);
+        jQuery('#id_date_day').hide();
+    });
+</script>
+
+<div id="custom_data_to_append" style="display:none;">
+    {% if original.apartment_id %}
+<div class="row"><div class="control-group field-entrance"><div class="col-md-12 form-group "><div class="control-label col-md-3"><label>Брой хора:</label></div><div class="controls col-md-9"><p>{{original.apartment.number_of_occupants|default:'-'}}</p></div></div></div></div><div class="row"><div class="control-group field-entrance"><div class="col-md-12 form-group "><div class="control-label col-md-3"><label>Формиране на таксата:</label></div><div class="controls col-md-9"><p>{{original.entrance.tax_form|safe}}</p></div></div></div></div>
+{% endif %}
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.fields').append(jQuery('#custom_data_to_append').html());
+    });
+</script>
+

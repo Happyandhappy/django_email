@@ -1,0 +1,18 @@
+.breadcrumb {display: none;}
+.form-actions {display: none;}
+.actions {display: none !important;}
+.datetimeshortcuts {display: none;}
+.sortoptions {display: none;}
+.alert {display: none;}
+input, select,textarea {width: 100%;border:0;}
+textarea{height:auto;overflow: visible !important;}
+.cke{display: none !important;}
+textarea {
+    visibility: visible !important;
+    display: block !important;
+}
+
+.container {width: 100%;font-size: 8px;}
+a:after{content:" (" attr(href) ") ";font-size:0px;}
+.add-another {display: none;}
+.form-group {margin:0;}

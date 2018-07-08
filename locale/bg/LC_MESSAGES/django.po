@@ -1,0 +1,2531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-15 15:33+0200\n"
+"PO-Revision-Date: 2016-01-19 22:42+0157\n"
+"Last-Translator:   <cninov@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.7.4\n"
+
+#: django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: django/contrib/staticfiles/apps.py:8
+msgid "Static Files"
+msgstr ""
+
+#: django/contrib/syndication/apps.py:8
+#, fuzzy
+#| msgid "Applications"
+msgid "Syndication"
+msgstr "Модули"
+
+#: django/contrib/webdesign/apps.py:8
+msgid "Web Design"
+msgstr ""
+
+#: django/core/validators.py:21
+msgid "Enter a valid value."
+msgstr ""
+
+#: django/core/validators.py:77 django/forms/fields.py:675
+msgid "Enter a valid URL."
+msgstr ""
+
+#: django/core/validators.py:115
+msgid "Enter a valid integer."
+msgstr ""
+
+#: django/core/validators.py:120
+#, fuzzy
+#| msgid "Email address:"
+msgid "Enter a valid email address."
+msgstr "Е-мейл"
+
+#: django/core/validators.py:185
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: django/core/validators.py:188 django/core/validators.py:207
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: django/core/validators.py:193 django/core/validators.py:208
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: django/core/validators.py:203 django/core/validators.py:206
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: django/core/validators.py:229 django/db/models/fields/__init__.py:1075
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: django/core/validators.py:236
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: django/core/validators.py:255
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: django/core/validators.py:262
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: django/core/validators.py:271
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/core/validators.py:282
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/db/models/base.py:973 django/forms/models.py:718
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:16
+msgid "and"
+msgstr ""
+
+#: django/db/models/base.py:975
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:104
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:105
+msgid "This field cannot be null."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:106
+msgid "This field cannot be blank."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:107
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: django/db/models/fields/__init__.py:111
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:118
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:852
+#: django/db/models/fields/__init__.py:1578
+msgid "Integer"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:856
+#: django/db/models/fields/__init__.py:1576
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:931
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:933
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1009
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1070
+msgid "Comma-separated integers"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1085
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1087
+#: django/db/models/fields/__init__.py:1194
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1090
+msgid "Date (without time)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1192
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1196
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1200
+msgid "Date (with time)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1302
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1304
+msgid "Decimal number"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1449
+#, fuzzy
+#| msgid "Email address:"
+msgid "Email address"
+msgstr "Е-мейл"
+
+#: django/db/models/fields/__init__.py:1475
+msgid "File path"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1542
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1544
+msgid "Floating point number"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1628
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1643
+#, fuzzy
+#| msgid "Email address:"
+msgid "IPv4 address"
+msgstr "Е-мейл"
+
+#: django/db/models/fields/__init__.py:1673
+#, fuzzy
+#| msgid "Email address:"
+msgid "IP address"
+msgstr "Е-мейл"
+
+#: django/db/models/fields/__init__.py:1752
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1754
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1814
+msgid "Positive integer"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1826
+msgid "Positive small integer"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1839
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1868
+msgid "Small integer"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1875
+msgid "Text"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1898
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1900
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1903
+msgid "Time"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:1985
+msgid "URL"
+msgstr ""
+
+#: django/db/models/fields/__init__.py:2008
+msgid "Raw binary data"
+msgstr ""
+
+#: django/db/models/fields/files.py:225
+msgid "File"
+msgstr ""
+
+#: django/db/models/fields/files.py:375
+msgid "Image"
+msgstr ""
+
+#: django/db/models/fields/related.py:1603
+#, python-format
+msgid "%(model)s instance with pk %(pk)r does not exist."
+msgstr ""
+
+#: django/db/models/fields/related.py:1605
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: django/db/models/fields/related.py:1795
+msgid "One-to-one relationship"
+msgstr ""
+
+#: django/db/models/fields/related.py:1865
+msgid "Many-to-many relationship"
+msgstr ""
+
+#: django/forms/fields.py:55
+msgid "This field is required."
+msgstr ""
+
+#: django/forms/fields.py:236
+msgid "Enter a whole number."
+msgstr ""
+
+#: django/forms/fields.py:279 django/forms/fields.py:316
+msgid "Enter a number."
+msgstr ""
+
+#: django/forms/fields.py:318
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/fields.py:322
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/fields.py:326
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/fields.py:437 django/forms/fields.py:1139
+msgid "Enter a valid date."
+msgstr ""
+
+#: django/forms/fields.py:461 django/forms/fields.py:1140
+msgid "Enter a valid time."
+msgstr ""
+
+#: django/forms/fields.py:483
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: django/forms/fields.py:564
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: django/forms/fields.py:565
+msgid "No file was submitted."
+msgstr ""
+
+#: django/forms/fields.py:566
+msgid "The submitted file is empty."
+msgstr ""
+
+#: django/forms/fields.py:568
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/fields.py:571
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: django/forms/fields.py:632
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: django/forms/fields.py:782 django/forms/fields.py:871
+#: django/forms/models.py:1196
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: django/forms/fields.py:872 django/forms/fields.py:987
+#: django/forms/models.py:1195
+msgid "Enter a list of values."
+msgstr ""
+
+#: django/forms/fields.py:988
+msgid "Enter a complete value."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: django/forms/forms.py:122
+msgid ":"
+msgstr ""
+
+#: django/forms/forms.py:192
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the
+#. label
+#: django/forms/forms.py:620
+msgid ":?.!"
+msgstr ""
+
+#: django/forms/formsets.py:95
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: django/forms/formsets.py:332
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/formsets.py:339
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/forms/formsets.py:367 django/forms/formsets.py:369
+msgid "Order"
+msgstr ""
+
+#: django/forms/formsets.py:371
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:44
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:10
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:65
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:5
+#: django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html:5
+msgid "Delete"
+msgstr ""
+
+#: django/forms/models.py:712
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "Моля оправете грешките за %(field)s по-долу."
+
+#: django/forms/models.py:716
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: django/forms/models.py:722
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: django/forms/models.py:730
+msgid "Please correct the duplicate values below."
+msgstr "Моля оправете грешките по-долу."
+
+#: django/forms/models.py:1032
+msgid "The inline foreign key did not match the parent instance primary key."
+msgstr ""
+
+#: django/forms/models.py:1098
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: django/forms/models.py:1198
+#, python-format
+msgid "\"%(pk)s\" is not a valid value for a primary key."
+msgstr ""
+
+#: django/forms/models.py:1209
+msgid "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
+msgstr ""
+
+#: django/forms/utils.py:157
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: django/forms/widgets.py:350
+msgid "Currently"
+msgstr ""
+
+#: django/forms/widgets.py:351
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:84
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:36
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:67
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:70
+#: documents/admin.py:52
+msgid "Change"
+msgstr ""
+
+#: django/forms/widgets.py:352
+msgid "Clear"
+msgstr ""
+
+#: django/forms/widgets.py:546
+msgid "Unknown"
+msgstr ""
+
+#: django/forms/widgets.py:547 entrances/helper.py:303 tasks/admin.py:44
+#: tasks/admin.py:58
+msgid "Yes"
+msgstr ""
+
+#: django/forms/widgets.py:548 entrances/helper.py:303 tasks/admin.py:44
+#: tasks/admin.py:58
+msgid "No"
+msgstr ""
+
+#: django/template/defaultfilters.py:855
+msgid "yes,no,maybe"
+msgstr ""
+
+#: django/template/defaultfilters.py:884 django/template/defaultfilters.py:896
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/template/defaultfilters.py:898
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: django/template/defaultfilters.py:900
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: django/template/defaultfilters.py:902
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: django/template/defaultfilters.py:904
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: django/template/defaultfilters.py:906
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: django/utils/dateformat.py:59
+msgid "p.m."
+msgstr ""
+
+#: django/utils/dateformat.py:60
+msgid "a.m."
+msgstr ""
+
+#: django/utils/dateformat.py:65
+msgid "PM"
+msgstr ""
+
+#: django/utils/dateformat.py:66
+msgid "AM"
+msgstr ""
+
+#: django/utils/dateformat.py:149
+msgid "midnight"
+msgstr ""
+
+#: django/utils/dateformat.py:151
+msgid "noon"
+msgstr ""
+
+#: django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "January"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "February"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "March"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "April"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "May"
+msgstr ""
+
+#: django/utils/dates.py:18
+msgid "June"
+msgstr ""
+
+#: django/utils/dates.py:19
+msgid "July"
+msgstr ""
+
+#: django/utils/dates.py:19
+msgid "August"
+msgstr ""
+
+#: django/utils/dates.py:19
+msgid "September"
+msgstr ""
+
+#: django/utils/dates.py:19
+msgid "October"
+msgstr ""
+
+#: django/utils/dates.py:19
+msgid "November"
+msgstr ""
+
+#: django/utils/dates.py:20
+msgid "December"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "jan"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "feb"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "mar"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "apr"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "may"
+msgstr ""
+
+#: django/utils/dates.py:23
+msgid "jun"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "jul"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "aug"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "sep"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "oct"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "nov"
+msgstr ""
+
+#: django/utils/dates.py:24
+msgid "dec"
+msgstr ""
+
+#: django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: django/utils/dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: django/utils/dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: django/utils/dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: django/utils/dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: django/utils/dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: django/utils/dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: django/utils/dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: django/utils/dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: django/utils/dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: django/utils/dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: django/utils/dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: django/utils/dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: django/utils/dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: django/utils/dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: django/utils/dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: django/utils/dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: django/utils/ipv6.py:10
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#: django/utils/text.py:245
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: django/utils/text.py:264 django/utils/timesince.py:57
+msgid ", "
+msgstr ""
+
+#: django/utils/timesince.py:25
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:26
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:27
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:28
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:29
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:30
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django/utils/timesince.py:46
+msgid "0 minutes"
+msgstr ""
+
+#: django/views/csrf.py:105
+msgid "Forbidden"
+msgstr ""
+
+#: django/views/csrf.py:106
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: django/views/csrf.py:110
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: django/views/csrf.py:115
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: django/views/csrf.py:120
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: django/views/csrf.py:125
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: django/views/csrf.py:129
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: django/views/generic/dates.py:43
+msgid "No year specified"
+msgstr ""
+
+#: django/views/generic/dates.py:99
+msgid "No month specified"
+msgstr ""
+
+#: django/views/generic/dates.py:158
+msgid "No day specified"
+msgstr ""
+
+#: django/views/generic/dates.py:214
+msgid "No week specified"
+msgstr ""
+
+#: django/views/generic/dates.py:369 django/views/generic/dates.py:397
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: django/views/generic/dates.py:650
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: django/views/generic/dates.py:682
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: django/views/generic/detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: django/views/generic/list.py:62
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: django/views/generic/list.py:67
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: django/views/generic/list.py:158
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: django/views/static.py:54
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: django/views/static.py:56
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: django/views/static.py:97
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/404.html:4
+#: django_admin_bootstrapped/bootstrap3/templates/admin/404.html:8
+msgid "Page not found"
+msgstr "Страницата не е намерена"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/500.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/app_index.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:13
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:19
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html:36
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:77
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html:84
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:4
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:12
+#: django_admin_bootstrapped/bootstrap3/templates/admin/invalid_setup.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:6
+msgid "Home"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/500.html:7
+msgid "Server error"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/500.html:11
+msgid "Server error (500)"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/500.html:14
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/500.html:15
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"e-mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/actions.html:4
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html:8
+msgid "Run the selected action"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/actions.html:4
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html:8
+msgid "Go"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/actions.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html:15
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/actions.html:13
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html:17
+msgid "Clear selection"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/app_index.html:17
+msgid "administration"
+msgstr "Администрация"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user"
+" options."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/add_form.html:8
+msgid "Enter a username and password."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:17
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:51
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:73
+msgid "Change password"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:27
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:52
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html:81
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:147
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html:101
+#: django_admin_bootstrapped/bootstrap3/templates/admin/login.html:49
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:20
+#: documents/models.py:10 vhodove/i18n.py:9
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Моля оправете грешките по-долу."
+msgstr[1] "Моля оправете грешките по-долу."
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:31
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:38
+msgid "Password"
+msgstr "Парола"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:44
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:50
+msgid "Password (again)"
+msgstr "Парола (Отново)"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html:45
+msgid "Enter the same password as above, for verification."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:70
+msgid "Welcome,"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:75
+msgid "Log out"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:84
+msgid "Recent Actions"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:96
+msgid "Unknown content"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:101
+msgid "None available"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base.html:110
+msgid "Documentation"
+msgstr "Документ"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/base_site.html:4
+#: templates/admin/base_site.html:4
+msgid "Django site admin"
+msgstr "Администрация"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:22
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:80
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html:87
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:66
+msgid "Add"
+msgstr "Добавяне"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:33
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:112
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:23
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/image/change_form.html:17
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:10
+msgid "History"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:35
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:115
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/stacked.html:22
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/tabular.html:33
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:25
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/image/change_form.html:19
+msgid "View on site"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html:49
+msgid "Fields in <strong>bold</strong> are required."
+msgstr "Полетата в <strong>черно</strong> са задължителни."
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html:53
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:91
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html:63
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:115
+msgid "Filter"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html:121
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:293
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html:131
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:15
+#: django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html:12
+msgid "Save"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list_results.html:18
+msgid "Remove from sorting"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list_results.html:19
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/change_list_results.html:20
+msgid "Toggle sorting"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:4
+msgid "Change a page"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:86
+msgid "Approve page deletion"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:92
+#, python-format
+msgid "(requires approvement at %(moderation_level)s level)"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:93
+msgid "(you can perform actions on this page directly)"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:105
+msgid "Remove delete request"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:108
+msgid "Approve delete"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:108
+msgid "Approve"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:108
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:109
+msgid "draft"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:109
+msgid "Preview"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:165
+msgid "All permissions"
+msgstr "Всички права"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:166
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:178
+msgid "Loading..."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:177
+msgid "Page states"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:202
+#, python-format
+msgid ""
+"This page must be moderated at level %(moderation_level)s, post a message "
+"for moderator."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:204
+msgid "Request approvemet"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html:292
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:14
+#: django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html:11
+msgid "Save and continue editing"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:3
+msgid "List of pages"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:87
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:101
+msgid "Pages on:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:140
+msgid "Successfully moved"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html:149
+msgid "An error occured. Please reload the page"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:5
+msgid "select this page"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:5
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:6
+msgid "edit this page"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:6
+msgid "edit"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:16
+msgid "insert above"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:17
+msgid "insert below"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:19
+msgid "insert inside"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:23
+msgid "softroot"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:23
+msgid "home"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:26
+#, python-format
+msgid "Edit this page in %(language)s "
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:33
+msgid "Cut"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:33
+msgid "cut"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:34
+msgid "Copy"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:34
+msgid "copy"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:37
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:41
+msgid "Add Child"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:37
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:41
+msgid "add child"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:44
+msgid "delete"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:61
+msgid "Approve directly"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:63
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:75
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:77
+msgid "view"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:68
+msgid "Unpublish"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:69
+msgid "Publish"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html:75
+msgid "View on page"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html:130
+msgid "Cancel"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html:4
+msgid "Available Plugins"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html:7
+msgid "Generic"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html:15
+msgid "Add Plugin"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html:18
+msgid "From Language"
+msgstr "От Език"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html:25
+msgid "Copy Plugins"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:17
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:25
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the"
+" following protected related objects:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:33
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html:38
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:45
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:9
+msgid "Delete multiple objects"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:16
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:24
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html:32
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/stacked.html:96
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/tabular.html:120
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/stacked.html:99
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/tabular.html:123
+msgid "Remove"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/tabular.html:17
+msgid "Delete?"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html:15
+#, python-format
+msgid "Select all %(total_count)s files and/or folders"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:4
+msgid "Go back to admin homepage"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:5
+msgid "Go back to Filer app"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:5
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:7
+msgid "Media"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:6
+msgid "Go back to root folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:78
+msgid "root"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:10
+#, python-format
+msgid "Go back to '%(folder_name)s' folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/change_form.html:28
+msgid "duplicates"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:78
+msgid "Go back to"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:6
+msgid "admin homepage"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:7
+msgid "Filer"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:78
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:27
+msgid "folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html:37
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:79
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:89
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:30
+msgid "Folder Icon"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:63
+msgid "Adds a new Folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:63
+msgid "New Folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:64
+msgid "upload files"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:64
+msgid "Upload"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:78
+msgid "Go back to the parent folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:80
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:41
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:16
+#, python-format
+msgid "1 folder"
+msgid_plural "%(counter)s folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:80
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:41
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:17
+#, python-format
+msgid "1 file"
+msgid_plural "%(counter)s files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html:84
+msgid "Change current folder details"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:12
+msgid "Name"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:30
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:36
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:40
+#, python-format
+msgid "Change '%(item_label)s' folder details"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:42
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:75
+msgid "Owner"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:51
+msgid "Select this file"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:59
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:67
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:71
+#, python-format
+msgid "Change '%(item_label)s' details"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:65
+#, python-format
+msgid "Delete '%(item_label)s'"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:77
+msgid "Permissions"
+msgstr "Права"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:77
+msgid "disabled"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:77
+msgid "enabled"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:83
+msgid "Move to clipboard"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:91
+msgid "there are no files or subfolders"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:98
+msgid "previous"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:102
+#, python-format
+msgid ""
+"\n"
+"            Page %(number)s of %(num_pages)s.\n"
+"            "
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html:108
+msgid "next"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/image/change_form.html:31
+msgid "Full size preview"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:8
+msgid "Clipboard"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:20
+msgid "Paste all items here"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:27
+msgid "Move all clipboard files to"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:27
+msgid "unfiled files"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:27
+msgid "discard"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html:44
+msgid "the clipboard is empty"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:8
+msgid "Enter your search phrase here"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:11
+msgid "Check it to"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:11
+msgid "limit the search to current folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:12
+msgid "search the current folder"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:16
+msgid "found"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html:17
+msgid "cancel search"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/filter.html:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:19
+msgid "Applications"
+msgstr "Модули"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:52
+#, python-format
+msgid "Models available in the %(name)s application."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/index.html:79
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/invalid_setup.html:12
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate"
+" database tables have been created, and make sure the database is readable "
+"by the appropriate user."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/login.html:46
+msgid "<h2>Login</h2>"
+msgstr "<h2>Вход</h2>"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/login.html:75
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/login.html:80
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:18
+msgid "Log in"
+msgstr "Вход"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:22
+msgid "Date/time"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:23
+#: documents/admin.py:74 entrances/models.py:117 tasks/models.py:19
+#: tasks/models.py:96
+msgid "User"
+msgstr "Потребител"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:24
+msgid "Action"
+msgstr "Действие"
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html:38
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this"
+" admin site."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:7
+#, python-format
+msgid "Delete %(language)s translation"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:12
+#: django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html:9
+msgid "Save as new"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html:13
+#: django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html:10
+msgid "Save and add another"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/pagination.html:19
+msgid "Show all"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/search_form.html:6
+#: django_admin_bootstrapped/bootstrap3/templates/admin/search_form.html:8
+msgid "Search"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/search_form.html:10
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/admin/search_form.html:10
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/logged_out.html:9
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/logged_out.html:11
+msgid "Log in again"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:8
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:12
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:13
+msgid "Password change"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html:12
+msgid "Password change successful"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html:16
+msgid "Your password was changed."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:24
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new"
+" password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:30
+msgid "Old password"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:40
+msgid "New password"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html:62
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:42
+msgid "Change my password"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:12
+msgid "Password reset complete"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html:16
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:7
+msgid "Password reset confirmation"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:12
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:7
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:12
+msgid "Password reset"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:18
+msgid "Enter new password"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:20
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:25
+msgid "New password:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:34
+msgid "Confirm password:"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:48
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html:50
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html:11
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html:12
+msgid "Password reset successful"
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html:16
+msgid ""
+"We've emailed you instructions for setting your password to the email "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:16
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:21
+msgid "Email address:"
+msgstr "Е-мейл"
+
+#: django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html:30
+msgid "Reset my password"
+msgstr ""
+
+#: documents/admin.py:51
+#, fuzzy
+#| msgid "Action"
+msgid "Addition"
+msgstr "Действие"
+
+#: documents/admin.py:53
+msgid "Deletion"
+msgstr ""
+
+#: documents/admin.py:145
+msgid "object"
+msgstr "Запис"
+
+#: documents/apps.py:7 documents/models.py:32
+msgid "Documents"
+msgstr "Документи"
+
+#: documents/models.py:7
+msgid "Authentication and Authorization"
+msgstr "Потребители и групи"
+
+#: documents/models.py:8
+msgid "Administration"
+msgstr "Администрация"
+
+#: documents/models.py:9 vhodove/i18n.py:8
+msgid "Please correct the errors below."
+msgstr "Моля оправете грешките по-долу."
+
+#: documents/models.py:14 dynamic_costs/models.py:12 entrances/models.py:12
+#: entrances/models.py:36 entrances/models.py:93 nomenclatures/models.py:7
+#: nomenclatures/models.py:33 tasks/models.py:14 tasks/models.py:73
+msgid "Title"
+msgstr "Заглавие"
+
+#: documents/models.py:15 documents/models.py:31 entrances/models.py:37
+#: tasks/models.py:44 tasks/models.py:74
+msgid "Document"
+msgstr "Документ"
+
+#: documents/models.py:16
+msgid "Visible to groups"
+msgstr "Видимо от групи"
+
+#: documents/models.py:17
+msgid "Editable by users"
+msgstr "Потребители с права за редакция"
+
+#: documents/models.py:25 entrances/models.py:47 entrances/models.py:104
+msgid "File link"
+msgstr "Линк за сваляне"
+
+#: dynamic_costs/apps.py:7 dynamic_costs/models.py:34
+msgid "Dynamic costs"
+msgstr "Динамични приходи"
+
+#: dynamic_costs/models.py:15 dynamic_costs/models.py:40
+#: entrances/helper.py:109 entrances/helper.py:280 entrances/models.py:118
+#: tasks/models.py:34
+msgid "Price"
+msgstr "Сума"
+
+#: dynamic_costs/models.py:15
+msgid "For entire entrance"
+msgstr "Сума за целия вход"
+
+#: dynamic_costs/models.py:16 tasks/models.py:38 tasks/models.py:97
+msgid "From date"
+msgstr "От дата"
+
+#: dynamic_costs/models.py:17 tasks/models.py:39 tasks/models.py:98
+msgid "To date"
+msgstr "До дата"
+
+#: dynamic_costs/models.py:19 entrances/models.py:19
+msgid "Active"
+msgstr "Активност"
+
+#: dynamic_costs/models.py:20 entrances/admin.py:87 entrances/models.py:18
+#: entrances/models.py:71 tasks/models.py:41
+msgid "Common information"
+msgstr "Обща информация"
+
+#: dynamic_costs/models.py:33
+msgid "Dynamic cost"
+msgstr "Динамичен приход"
+
+#: dynamic_costs/models.py:41 entrances/helper.py:281
+msgid "Is paid"
+msgstr "Платено"
+
+#: dynamic_costs/models.py:48
+msgid "Apartment dynamic cost"
+msgstr "Динамичен приход"
+
+#: dynamic_costs/models.py:49
+msgid "Apartment dynamic costs"
+msgstr "Динамични приходи"
+
+#: entrances/admin.py:82 entrances/models.py:14
+msgid "Tax form"
+msgstr "Сформиране на такса"
+
+#: entrances/admin.py:92 entrances/models.py:13
+msgid "Google maps"
+msgstr "Линк към Гугъл мапс"
+
+#: entrances/apps.py:7 entrances/models.py:32
+msgid "Entrances"
+msgstr "Входове"
+
+#: entrances/helper.py:31 entrances/helper.py:55 entrances/helper.py:244
+msgid "Total"
+msgstr "Общо"
+
+#: entrances/helper.py:98 entrances/helper.py:104
+msgid "kasa"
+msgstr "Каса"
+
+#: entrances/helper.py:133
+msgid "Total income"
+msgstr "Общо Приход"
+
+#: entrances/helper.py:166
+msgid "Total outcome"
+msgstr "Общо Разход"
+
+#: entrances/helper.py:186
+msgid "Tax at address"
+msgstr "Такси на адрес"
+
+#: entrances/helper.py:191 entrances/helper.py:276 entrances/models.py:61
+#: tasks/admin.py:26 tasks/admin.py:151
+msgid "Floor"
+msgstr "Етаж"
+
+#: entrances/helper.py:192 entrances/helper.py:277 entrances/models.py:62
+#: entrances/models.py:87 tasks/admin.py:12 tasks/admin.py:142
+msgid "Apartment"
+msgstr "Апартамент"
+
+#: entrances/helper.py:193 entrances/helper.py:278 entrances/models.py:69
+msgid "Number of occupants"
+msgstr "Брой живущи"
+
+#: entrances/helper.py:194 entrances/helper.py:279 entrances/models.py:66
+msgid "Contact person"
+msgstr "Лице за контакт"
+
+#: entrances/helper.py:195
+msgid "Monthly payment"
+msgstr "мес.вн."
+
+#: entrances/helper.py:196
+msgid "Due payment"
+msgstr "дължими"
+
+#: entrances/helper.py:197
+msgid "Collected"
+msgstr "Събрани"
+
+#: entrances/helper.py:230 entrances/helper.py:240 entrances/helper.py:241
+#: entrances/helper.py:246 entrances/helper.py:302 entrances/helper.py:309
+#: entrances/helper.py:316 entrances/helper.py:317
+msgid "BGN"
+msgstr "лв."
+
+#: entrances/helper.py:293 tasks/models.py:35
+msgid "Partial paid"
+msgstr "Частично платени"
+
+#: entrances/models.py:15
+msgid "Tax amount"
+msgstr "Такса за домоуправител"
+
+#: entrances/models.py:15
+msgid "Tax amount description"
+msgstr "Сума за апартамент"
+
+#: entrances/models.py:16
+msgid "Contract date"
+msgstr "Договор влязал в сила от"
+
+#: entrances/models.py:17
+msgid "Protocol date"
+msgstr "Избрани с Протокол от общо събрание от "
+
+#: entrances/models.py:20 entrances/models.py:125
+msgid "Monthly expences"
+msgstr "Месечни разходи"
+
+#: entrances/models.py:23
+msgid "Download"
+msgstr "Свали"
+
+#: entrances/models.py:25
+msgid "Xls table"
+msgstr "Таблица на входа"
+
+msgid "Contacts table"
+msgstr "Таблица с контакти"
+
+#: entrances/models.py:31
+msgid "Entrance"
+msgstr "Вход"
+
+#: entrances/models.py:53 entrances/models.py:110
+msgid "Uploaded document"
+msgstr "Прикачен Документ"
+
+#: entrances/models.py:54 entrances/models.py:111
+msgid "Uploaded documents"
+msgstr "Прикачени Документи"
+
+#: entrances/models.py:64
+msgid "Common area"
+msgstr "Общи части"
+
+#: entrances/models.py:65
+#| msgid "Monthly Fee"
+msgid "Monthly fee"
+msgstr "Месечна такса"
+
+#: entrances/models.py:67
+msgid "Contact phone"
+msgstr "Телефон"
+
+#: entrances/models.py:68
+msgid "Contact email"
+msgstr "Е-мейл"
+
+#: entrances/models.py:70
+msgid "Has pet"
+msgstr "Има домашни любимци"
+
+msgid "easypay_id"
+msgstr "E-PaY"
+
+#: entrances/models.py:74 entrances/models.py:77
+msgid "Apartment short"
+msgstr "АП"
+
+#: entrances/models.py:88
+msgid "Apartments"
+msgstr "Апартаменти"
+
+#: entrances/models.py:94
+msgid "document"
+msgstr "Документ"
+
+#: entrances/models.py:124
+msgid "Monthly expence"
+msgstr "Месечен разход"
+
+#: entrances/models.py:130 entrances/models.py:131
+msgid "Income"
+msgstr "Таблица с Приходи"
+
+#: nomenclatures/apps.py:7
+msgid "Nomenclatures"
+msgstr "Номенклатури"
+
+#: nomenclatures/models.py:8 tasks/models.py:36
+msgid "Price for resolve"
+msgstr "Цена за отметната задача"
+
+#: nomenclatures/models.py:9 tasks/models.py:17
+msgid "Can pay"
+msgstr "Има събиране на плащане"
+
+#: nomenclatures/models.py:9
+msgid "Can pay description"
+msgstr ""
+"Ако е избрано означава че разхода няма да се вземе от касата, а ще се "
+"обикаля по апартаменти за да се събере"
+
+#: nomenclatures/models.py:10 tasks/models.py:18
+msgid "Can pay partial"
+msgstr "Позволява разсрочено плащане"
+
+#: nomenclatures/models.py:11
+msgid "For cachiers"
+msgstr "За касиери"
+
+#: nomenclatures/models.py:11
+msgid "For cachiers description"
+msgstr "Ако е избрано, касиер ще може да добавя този тип задачи."
+
+#: nomenclatures/models.py:12
+msgid "Default fee"
+msgstr "Тип \"Събиране на месечни такси\""
+
+#: nomenclatures/models.py:12
+msgid "Default fee description"
+msgstr ""
+"Ако е избрано, указва че този тип задача по подразбиране се асоциира със "
+"регулярните задачи за събиране на такси"
+
+#: nomenclatures/models.py:13
+msgid "Home manager fee"
+msgstr "Такса Домоуправител"
+
+#: nomenclatures/models.py:13
+msgid "Home manager fee description"
+msgstr ""
+"Ако е избрано, указва че типа е разход за домоуправител. От задачите от този"
+" тип се пълни таблицата с приходи от входове"
+
+#: nomenclatures/models.py:28
+msgid "Task type"
+msgstr "Тип задача"
+
+#: nomenclatures/models.py:29
+msgid "Task types"
+msgstr "Типове задачи"
+
+msgid "Position"
+msgstr "Номер"
+
+#: nomenclatures/models.py:34
+msgid "Color"
+msgstr "Цвят"
+
+#: nomenclatures/models.py:35
+msgid "Default"
+msgstr "По подразбиране"
+
+#: nomenclatures/models.py:47
+msgid "Priority"
+msgstr "Приоритет"
+
+#: nomenclatures/models.py:48
+msgid "Priorities"
+msgstr "Приоритети"
+
+#: tasks/admin.py:40 tasks/models.py:15
+msgid "Resolved"
+msgstr "Завършена"
+
+#: tasks/admin.py:54 tasks/models.py:16
+msgid "Resolved by admin"
+msgstr "Одобрена от админ"
+
+#: tasks/admin.py:134
+msgid "Get Contact info"
+msgstr "Контакт"
+
+#: tasks/apps.py:7 tasks/models.py:68
+msgid "tasks"
+msgstr "Задачи"
+
+#: tasks/models.py:67
+msgid "task"
+msgstr "Задача"
+
+#: tasks/models.py:84
+msgid "file link"
+msgstr "Линк за сваляне"
+
+#: tasks/models.py:90
+msgid "uploaded document"
+msgstr "Прикачен Документ"
+
+#: tasks/models.py:91
+msgid "uploaded documents"
+msgstr "Прикачени Документи"
+
+#: tasks/models.py:99
+msgid "Visit date"
+msgstr "Дата за събиране на такси"
+
+#: tasks/models.py:105
+msgid "Schedule"
+msgstr "График"
+
+#: tasks/models.py:106
+msgid "Schedules"
+msgstr "График"
+
+#: vhodove/settings.py:92
+msgid "Bulgarian"
+msgstr "БГ"
+
+msgid "Payments cashier"
+msgstr "Плащане към касиери"
+
+msgid "Ot data do data"
+msgstr "Период"
+
+msgid "EntranceKasa"
+msgstr "Каси по таблици"
+
+msgid "EntranceKasaSummary"
+msgstr "Каси по входове"
+
+msgid "Obshto subrani"
+msgstr "Общо събрани"
+
+msgid "Obshto vhodove"
+msgstr "Брой входове"
+
+msgid "Obshto zatvoreni taskove"
+msgstr "Брой завържени"
+
+msgid "Obshto total_price_for_resolve"
+msgstr "Сума за прикючени задачи"
+
+msgid "Za predavane"
+msgstr "За предаване"
+
+msgid "Period"
+msgstr "Период (месеци)"
+
+msgid "Detach client"
+msgstr "Разкачване"
+
+msgid "PaymentAhead"
+msgstr "Плащане напред"
+
+msgid "Updated at"
+msgstr "Актуализация"
+
+msgid "Created at"
+msgstr "Дата на създаване"
+
+msgid "Partial paid total"
+msgstr "Частично платени"
+
+msgid "task partial pays"
+msgstr "Частични плащания"
+
+msgid "task partial pay"
+msgstr "Частично плащане"
+
+msgid "Mark as resolved"
+msgstr "Маркирай като завършена"
+
+msgid "Unmark as resolved"
+msgstr "Маркирай като незавършена"
+
+msgid "Mark as resolved by admin"
+msgstr "Маркирай като одобрена"
+
+msgid "Unmark as resolved by admin"
+msgstr "Маркирай като неодобрена"
+
+msgid "Administrative Task"
+msgstr "Административна задача"
+
+msgid "Administrative Tasks"
+msgstr "Административни задачи"
+
+msgid "Month"
+msgstr "Месец"
+
+msgid "Is Board"
+msgstr "Контролен съвет"
+
+msgid "ZipEntrance"
+msgstr "Таблица всички входове"
+
+msgid "ZipEntrances"
+msgstr "Таблица всички входове"
+
+msgid "Sum paid"
+msgstr "Платени"
+
+msgid "For Payment"
+msgstr "За доплащане"
+
+msgid "Dont send notification emails"
+msgstr "Да не се изпращат е-мейли на потребителите"
+
+msgid "Is real cachier"
+msgstr "Касиер"
+
+msgid "Auto Assign Monthly Tasks"
+msgstr "Създавай автоматични месечни задачи"
+
+msgid "Pay online"
+msgstr "Плаща онлайн"
+
+msgid "taksa_domoupravitel"
+msgstr "Такса Домоуправител"
+
+msgid "taksa_kasierstvo"
+msgstr "Такса Касиерство"
+
+msgid "abonamentno_pochistvane"
+msgstr "Абонаментно почистване"
+
+msgid "poddrujka_asansior"
+msgstr "Поддръжка асансьор"
+
+msgid "unpaid_months"
+msgstr "Брой неплатени месеци"
+
+msgid "total_duljima_suma"
+msgstr "Обща дължима сума"
+
+msgid "zaduljeniq"
+msgstr "задължения"
+
+#~ msgid "Can payl"
+#~ msgstr "Има събиране на плащане"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "Email"
+#~ msgstr "Е-мейл"
+
+#~ msgid "documents"
+#~ msgstr "Документи"
+
+#~ msgid "entrance"
+#~ msgstr "Вход"
+
+#~ msgid "can cachier add this task type"
+#~ msgstr "Видим за Касиери"
+
+#~ msgid "resolved_by_admin"
+#~ msgstr "Одобрена от админ"
+
+#~ msgid "from cash desk"
+#~ msgstr "Без събиране на такса"
+
+#~ msgid "paid from the entrances cash desk"
+#~ msgstr ""
+#~ "Такъв тип разходи се плащат от касата на входа (чистачка, ремонт, ток и т.н)"
+
+#~ msgid "Auth"
+#~ msgstr "auit test"

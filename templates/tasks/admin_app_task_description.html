@@ -1,0 +1,58 @@
+{% if total%}
+<style>
+    .main-switch td, .main-switch th{background: rgba(240,250,240,0.5) !important;}
+</style>
+<script>
+    jQuery(document).ready(function(){
+        jQuery('.navbar-form.pull-left:last').append('<p>Общо дължима сума : {{total}} лв.</p>');
+
+        jQuery('.field-resolved input:checked').css('display','none').parent().append('<img src="/static/admin/img/icon-yes.gif" alt="True">');
+    });  
+
+    {% if has_entrance_filter %}
+    function toggle_tasks(ap) {
+            jQuery('#result_list tbody tr[data-ap="'+ap+'"]:not(.main-switch)').toggle();
+    }  
+
+
+
+    jQuery(document).ready(function(){
+        var apartments = {};
+        var apartments_to_pay = {};
+        var apartments_partial = {};
+        jQuery('#result_list tbody tr').each(function(){
+            ap = $('td.field-get_apartment', this).html();
+            jQuery(this).attr('data-ap',ap);
+            if(!apartments[ap]) {
+                a = jQuery(this).clone();
+                a.addClass('main-switch');
+                jQuery('.field-resolved, .field-resolved_by_admin, .field-entrance, .field-assignee, .field-get_date, .field-get_priority, .field-normalized_time, .field-task_type, .action-checkbox',a).html('');
+                jQuery('.field-title',a).html('<a href="javascript:;" onclick="toggle_tasks(\''+ap+'\')">Задължения</a>');
+                jQuery('.action-checkbox',a).removeClass('action-checkbox');
+                apartments[ap] = a;
+                apartments_to_pay[ap] = 0;
+                apartments_partial[ap] = 0;
+            }
+
+            apartments_to_pay[ap]+= ($('td.field-price', this).html() != '-' ? parseFloat($('td.field-price', this).html()): 0);
+            apartments_partial[ap]+= ($('td.field-partial_paid_total', this).html() != '-' ? parseFloat($('td.field-partial_paid_total', this).html()) : 0);
+            
+        });
+        
+        for(ap in apartments) {
+            jQuery('#result_list tbody').prepend(apartments[ap]);
+            $('.main-switch[data-ap="'+ap+'"] td.field-price').html((apartments_to_pay[ap]-apartments_partial[ap]).toFixed(2));
+            //$('.main-switch[data-ap="'+ap+'"] td.field-partial_paid_total').html(apartments_partial[ap].toFixed(2));
+        }
+
+        jQuery('#result_list tbody tr:not(.main-switch)').each(function(){
+            ap = $('td.field-get_apartment', this).html();
+            jQuery(this).hide().insertAfter('.main-switch[data-ap="'+ap+'"]');
+            
+        });
+
+        jQuery('.field-get_apartment, .field-get_contact_info, .field-get_occupants','#result_list tbody tr:not(.main-switch)').html('');
+    });
+    {% endif %}
+</script>
+{% endif %}

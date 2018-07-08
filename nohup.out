@@ -1,0 +1,820 @@
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[02/Jul/2018 18:12:08] "GET /login/?next=/ HTTP/1.1" 200 5326
+[02/Jul/2018 18:12:09] "GET /login/?next=/ HTTP/1.1" 200 5326
+[02/Jul/2018 18:12:17] "POST /login/?next=/ HTTP/1.1" 302 0
+[02/Jul/2018 18:12:17] "GET / HTTP/1.1" 200 25459
+[02/Jul/2018 18:12:17] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[02/Jul/2018 18:12:18] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+[02/Jul/2018 19:54:01] "GET / HTTP/1.1" 302 0
+[02/Jul/2018 19:54:01] "GET /login/?next=/ HTTP/1.1" 200 5326
+[02/Jul/2018 19:54:01] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 11970
+[02/Jul/2018 19:54:01] "GET /static/admin/css/overrides.css HTTP/1.1" 200 3411
+[02/Jul/2018 19:54:01] "GET /static/admin/css/print.css HTTP/1.1" 200 547
+[02/Jul/2018 19:54:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 132513
+[02/Jul/2018 19:54:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 31819
+[02/Jul/2018 19:54:02] "GET /static/admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7199
+[02/Jul/2018 19:54:02] "GET /static/admin/js/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[02/Jul/2018 19:54:12] "GET / HTTP/1.1" 302 0
+[02/Jul/2018 19:54:12] "GET /login/?next=/ HTTP/1.1" 200 5326
+[02/Jul/2018 19:54:20] "POST /login/?next=/ HTTP/1.1" 302 0
+[02/Jul/2018 19:54:21] "GET / HTTP/1.1" 200 25459
+[02/Jul/2018 19:54:21] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[02/Jul/2018 19:54:21] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:770: RemovedInDjango18Warning: Options.module_name has been deprecated in favor of model_name
+  current = getattr(current, bit)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[02/Jul/2018 19:54:40] "GET /tasks/task/ HTTP/1.1" 200 115886
+[02/Jul/2018 19:54:40] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[02/Jul/2018 19:54:40] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5258
+[02/Jul/2018 19:54:40] "GET /jsi18n/ HTTP/1.1" 200 11485
+[02/Jul/2018 19:54:40] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[02/Jul/2018 19:54:40] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[02/Jul/2018 19:54:40] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[02/Jul/2018 19:54:40] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[02/Jul/2018 19:54:40] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[02/Jul/2018 19:54:40] "GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
+[02/Jul/2018 19:54:40] "GET /static/admin/js/jquery.js HTTP/1.1" 200 268381
+[02/Jul/2018 21:16:00] "GET / HTTP/1.1" 302 0
+[02/Jul/2018 21:16:01] "GET /login/?next=/ HTTP/1.1" 200 5326
+[02/Jul/2018 21:16:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 11970
+[02/Jul/2018 21:16:02] "GET /static/admin/css/overrides.css HTTP/1.1" 200 3411
+[02/Jul/2018 21:16:02] "GET /static/admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7199
+[02/Jul/2018 21:16:02] "GET /static/admin/js/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[02/Jul/2018 21:16:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 31819
+[02/Jul/2018 21:16:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 132513
+[02/Jul/2018 21:16:03] "GET /static/admin/css/print.css HTTP/1.1" 200 547
+[02/Jul/2018 21:16:22] "POST /login/?next=/ HTTP/1.1" 302 0
+[02/Jul/2018 21:16:23] "GET / HTTP/1.1" 200 25459
+[02/Jul/2018 21:16:24] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[02/Jul/2018 21:16:24] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+[02/Jul/2018 22:44:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[02/Jul/2018 22:44:07] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+[02/Jul/2018 22:48:31] "GET /entrances/income/ HTTP/1.1" 500 407234
+[02/Jul/2018 22:48:34] "GET /favicon.ico HTTP/1.1" 404 6738
+[02/Jul/2018 22:52:45] "GET /tasks/task/ HTTP/1.1" 200 115886
+[02/Jul/2018 22:52:45] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5258
+[02/Jul/2018 22:52:45] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[02/Jul/2018 22:52:45] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[02/Jul/2018 22:52:45] "GET /jsi18n/ HTTP/1.1" 200 11485
+[02/Jul/2018 22:52:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[02/Jul/2018 22:52:46] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[02/Jul/2018 22:52:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[02/Jul/2018 22:52:46] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[02/Jul/2018 22:52:46] "GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
+[02/Jul/2018 22:52:46] "GET /static/admin/js/jquery.js HTTP/1.1" 200 268381
+[02/Jul/2018 22:54:48] "GET / HTTP/1.1" 200 25459
+[02/Jul/2018 22:55:07] "GET /tasks/task/ HTTP/1.1" 200 115886
+[02/Jul/2018 22:55:07] "GET /jsi18n/ HTTP/1.1" 200 11485
+[02/Jul/2018 22:56:29] "GET /jsi18n/ HTTP/1.1" 200 11485
+[02/Jul/2018 22:56:29] "GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
+[02/Jul/2018 22:56:29] "GET /entrances/entrance/ HTTP/1.1" 200 100384
+[02/Jul/2018 22:59:09] "GET /documents/document/ HTTP/1.1" 200 6457
+[02/Jul/2018 22:59:09] "GET /jsi18n/ HTTP/1.1" 200 11485
+[02/Jul/2018 22:59:10] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:24:02] "GET /dynamic_costs/dynamiccost/ HTTP/1.1" 200 108475
+[03/Jul/2018 00:24:03] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:29:35] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:29:35] "GET /tasks/task/ HTTP/1.1" 200 115886
+[03/Jul/2018 00:32:29] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:32:30] "GET /entrances/apartment/ HTTP/1.1" 200 163609
+[03/Jul/2018 00:33:40] "GET /entrances/income/ HTTP/1.1" 500 407232
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Jul/2018 00:33:40] "GET /entrances/income/ HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[03/Jul/2018 00:34:51] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:34:51] "GET /entrances/entrance/ HTTP/1.1" 200 100384
+[03/Jul/2018 00:34:57] "GET /entrances/income/ HTTP/1.1" 500 407232
+[03/Jul/2018 00:35:28] "GET /entrances/apartment/ HTTP/1.1" 200 163609
+[03/Jul/2018 00:35:28] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:35:28] "GET /entrances/apartment/ HTTP/1.1" 200 163609
+[03/Jul/2018 00:35:29] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:35:46] "GET /entrances/apartment/2616/ HTTP/1.1" 200 32508
+[03/Jul/2018 00:35:46] "GET /static/select2/css/djselect2.css?v=2 HTTP/1.1" 200 186
+[03/Jul/2018 00:35:46] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:35:46] "GET /static/select2/css/select2.css?v=1 HTTP/1.1" 200 13997
+[03/Jul/2018 00:35:46] "GET /static/select2/js/select2.jquery_ready.js?v=2 HTTP/1.1" 200 7183
+[03/Jul/2018 00:35:46] "GET /static/select2/js/select2.js?v=1 HTTP/1.1" 200 146280
+[03/Jul/2018 00:35:47] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 674
+[03/Jul/2018 00:35:47] "GET /static/admin/js/inlines.js HTTP/1.1" 200 11191
+[03/Jul/2018 00:35:47] "GET /static/admin/img/icon_addlink.gif HTTP/1.1" 200 119
+[03/Jul/2018 00:35:49] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 525167
+[03/Jul/2018 00:35:51] "GET /static/select2/css/select2.png HTTP/1.1" 200 613
+[03/Jul/2018 00:35:51] "GET /static/ckeditor/ckeditor/config.js?t=E7KD HTTP/1.1" 200 334
+[03/Jul/2018 00:35:52] "GET /static/ckeditor/ckeditor/lang/bg.js?t=E7KD HTTP/1.1" 200 24283
+[03/Jul/2018 00:35:52] "GET /static/ckeditor/ckeditor/skins/moono/editor.css?t=E7KD HTTP/1.1" 200 46353
+[03/Jul/2018 00:35:53] "GET /static/ckeditor/ckeditor/styles.js?t=E7KD HTTP/1.1" 200 3484
+[03/Jul/2018 00:35:54] "GET /static/ckeditor/ckeditor/skins/moono/icons.png HTTP/1.1" 200 20833
+[03/Jul/2018 00:35:54] "GET /static/ckeditor/ckeditor/contents.css?t=E7KD HTTP/1.1" 200 1874
+[03/Jul/2018 00:40:18] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 00:40:19] "GET /entrances/entrance/ HTTP/1.1" 200 100384
+[03/Jul/2018 09:05:27] "GET / HTTP/1.1" 200 25459
+[03/Jul/2018 09:05:28] "GET /static/admin/js/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[03/Jul/2018 09:06:31] "GET /entrances/income/ HTTP/1.1" 500 406647
+[03/Jul/2018 09:06:34] "GET /favicon.ico HTTP/1.1" 404 6738
+[03/Jul/2018 09:07:22] "GET /tasks/task/ HTTP/1.1" 200 115886
+[03/Jul/2018 09:07:22] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5258
+[03/Jul/2018 09:07:22] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[03/Jul/2018 09:07:22] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[03/Jul/2018 09:07:22] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[03/Jul/2018 09:07:22] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 09:07:23] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[03/Jul/2018 09:07:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[03/Jul/2018 09:07:23] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[03/Jul/2018 09:07:23] "GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
+[03/Jul/2018 09:07:23] "GET /static/admin/js/jquery.js HTTP/1.1" 200 268381
+[03/Jul/2018 09:14:05] "GET /entrances/entrance/ HTTP/1.1" 200 100384
+[03/Jul/2018 09:14:05] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 09:14:06] "GET /static/admin/img/icon-yes.gif HTTP/1.1" 200 299
+[03/Jul/2018 09:22:53] "GET / HTTP/1.1" 200 25459
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 02, 2018 - 18:12:04
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('47.30.198.163', 24193)
+----------------------------------------
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:01:01
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:01:03
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:01:06
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:01:07
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:09:41
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:09:43
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:11:40
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:11:43
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:23
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:25
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:32
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:34
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:44
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:12:46
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:13:58
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:13:59
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:25:45
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:25:46
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:25:58
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:30:17
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fdc86b38140>
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/utils/autoreload.py", line 225, in wrapper
+    et, ev, tb = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:30:18
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:30:38
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:30:39
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:31:10
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:31:37
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:32:33
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:32:34
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:32:47
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f6376edf140>
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/utils/autoreload.py", line 225, in wrapper
+    et, ev, tb = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:32:48
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:35:44
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f1330288140>
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/utils/autoreload.py", line 229, in wrapper
+    filename = traceback.extract_tb(tb)[-1][0]
+TypeError: 'NoneType' object is not callable
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:35:45
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:39:03
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:39:30
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:39:32
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:41:22
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:42:29
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7effe44f1140>
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/utils/autoreload.py", line 229, in wrapper
+    filename = traceback.extract_tb(tb)[-1][0]
+TypeError: 'NoneType' object is not callable
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:42:31
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:52:57
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 10:52:59
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:770: RemovedInDjango18Warning: Options.module_name has been deprecated in favor of model_name
+  current = getattr(current, bit)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[03/Jul/2018 11:04:37] "GET /entrances/entrance/ HTTP/1.1" 200 100384
+[03/Jul/2018 11:04:37] "GET /jsi18n/ HTTP/1.1" 200 11485
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:01:43
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:04:58
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:04:59
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:26:03
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:26:04
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:32:21
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:770: RemovedInDjango18Warning: Options.module_name has been deprecated in favor of model_name
+  current = getattr(current, bit)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[03/Jul/2018 11:32:25] "GET /entrances/entrance/ HTTP/1.1" 200 109469
+[03/Jul/2018 11:32:25] "GET /jsi18n/ HTTP/1.1" 200 11485
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:32:22
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:38:30
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:38:32
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 03, 2018 - 11:40:44
+Django version 1.7.1, using settings 'vhodove.settings'
+Starting development server at http://0:3008/
+Quit the server with CONTROL-C.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/core/management/__init__.py", line 385, in execute_from_command_line
+    utility.execute()
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/core/management/__init__.py", line 354, in execute
+    django.setup()
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/__init__.py", line 21, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/apps/registry.py", line 115, in populate
+    app_config.ready()
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/contrib/admin/apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/contrib/admin/__init__.py", line 23, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/utils/module_loading.py", line 74, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/entrances/admin.py", line 99, in <module>
+    class EntranceAdmin(admin.ModelAdmin):
+  File "/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/entrances/admin.py", line 107, in EntranceAdmin
+    mark_as_resolved_by_admin.short_description = _("Mark as resolved by admin")
+NameError: name 'mark_as_resolved_by_admin' is not defined
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:770: RemovedInDjango18Warning: Options.module_name has been deprecated in favor of model_name
+  current = getattr(current, bit)
+
+[03/Jul/2018 20:26:01] "GET /auth/user/1249/?_changelist_filters=q%3Dnitin HTTP/1.1" 200 32874
+[03/Jul/2018 20:26:01] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 20:37:32] "GET / HTTP/1.1" 200 25459
+[03/Jul/2018 20:37:40] "GET / HTTP/1.1" 200 25459
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Error: That port is already in use.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+Error: That port is already in use.
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/forms/widgets.py:143: RemovedInDjango18Warning: `LogEntryAdmin.queryset` method should be renamed `get_queryset`.
+  .__new__(mcs, name, bases, attrs))
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/db/models/fields/__init__.py:1222: RuntimeWarning: DateTimeField Task.updated_at received a naive datetime (2018-07-03 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `firstof` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:770: RemovedInDjango18Warning: Options.module_name has been deprecated in favor of model_name
+  current = getattr(current, bit)
+
+/home/ubuntu/workspace/vhodove/Vhodove.bg-master/system/root/django/template/base.py:290: RemovedInDjango18Warning: 'The `cycle` template tag is changing to escape its arguments; the non-autoescaping version is deprecated. Load it from the `future` tag library to start using the new behavior.
+  compiled_result = compile_func(self, token)
+
+[03/Jul/2018 21:06:46] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 21:06:47] "GET /tasks/task/?resolved_by_admin__exact=1&resolved__exact=1&timespan=past HTTP/1.1" 200 121427
+[03/Jul/2018 21:10:34] "GET / HTTP/1.1" 302 0
+[03/Jul/2018 21:10:35] "GET /login/?next=/ HTTP/1.1" 200 5326
+[03/Jul/2018 21:10:37] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 11970
+[03/Jul/2018 21:10:37] "GET /static/admin/css/overrides.css HTTP/1.1" 200 3411
+[03/Jul/2018 21:10:37] "GET /static/admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 7199
+[03/Jul/2018 21:10:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 31819
+[03/Jul/2018 21:10:37] "GET /static/admin/js/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[03/Jul/2018 21:10:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 132513
+[03/Jul/2018 21:10:38] "GET /static/admin/css/print.css HTTP/1.1" 200 547
+[03/Jul/2018 21:10:49] "POST /login/?next=/ HTTP/1.1" 302 0
+[03/Jul/2018 21:10:50] "GET / HTTP/1.1" 200 25459
+[03/Jul/2018 21:10:51] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[03/Jul/2018 21:10:51] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+[03/Jul/2018 21:10:55] "GET /dynamic_costs/ HTTP/1.1" 200 6937
+[03/Jul/2018 21:11:23] "GET /dynamic_costs/ HTTP/1.1" 200 6937
+[03/Jul/2018 21:11:30] "GET /dynamic_costs/ HTTP/1.1" 200 6937
+[03/Jul/2018 21:11:40] "GET / HTTP/1.1" 200 25459
+[03/Jul/2018 21:11:53] "GET /tasks/task/ HTTP/1.1" 200 116474
+[03/Jul/2018 21:11:53] "GET /static/admin/css/changelists.css HTTP/1.1" 200 5258
+[03/Jul/2018 21:11:53] "GET /static/admin/css/forms.css HTTP/1.1" 200 5928
+[03/Jul/2018 21:11:53] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 3232
+[03/Jul/2018 21:11:53] "GET /static/admin/js/core.js HTTP/1.1" 200 6899
+[03/Jul/2018 21:11:53] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 21:11:53] "GET /static/admin/js/actions.js HTTP/1.1" 200 4910
+[03/Jul/2018 21:11:53] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 326
+[03/Jul/2018 21:11:54] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10293
+[03/Jul/2018 21:11:54] "GET /static/admin/img/icon-no.gif HTTP/1.1" 200 176
+[03/Jul/2018 21:11:54] "GET /static/admin/js/jquery.js HTTP/1.1" 200 268381
+[03/Jul/2018 21:13:12] "GET /tasks/task/?resolved__exact=1&resolved_by_admin__exact=1&timespan=future HTTP/1.1" 200 35327
+[03/Jul/2018 21:13:14] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 21:13:21] "GET /tasks/task/? HTTP/1.1" 200 116474
+[03/Jul/2018 21:13:21] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 21:28:26] "GET /entrances/apartment/ HTTP/1.1" 200 163609
+[03/Jul/2018 21:28:26] "GET /jsi18n/ HTTP/1.1" 200 11485
+[03/Jul/2018 21:28:38] "GET /tasks/task/ HTTP/1.1" 200 116474
+[03/Jul/2018 21:28:38] "GET /jsi18n/ HTTP/1.1" 200 11485
