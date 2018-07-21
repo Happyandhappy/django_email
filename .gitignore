@@ -20,3 +20,4 @@ db.sqlite3
 db.sqlite3.1
 db.sqlite3.backup.12.01.207
 db.sqlite31
+*.pyc

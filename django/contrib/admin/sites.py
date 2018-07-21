@@ -233,7 +233,7 @@ class AdminSite(object):
             url(r'^password_change/$', wrap(self.password_change, cacheable=True), name='password_change'),
             url(r'^password_change/done/$', wrap(self.password_change_done, cacheable=True), name='password_change_done'),
             url(r'^jsi18n/$', wrap(self.i18n_javascript, cacheable=True), name='jsi18n'),
-            url(r'^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$', wrap(contenttype_views.shortcut), name='view_on_site'),
+            # url(r'^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$', wrap(contenttype_views.shortcut), name='view_on_site'),
         )
 
         # Add in each model's views, and create a list of valid URLS for the

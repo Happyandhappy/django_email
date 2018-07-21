@@ -592,6 +592,7 @@ class ModelAdmin(BaseModelAdmin):
             url(r'^(.+)/history/$', wrap(self.history_view), name='%s_%s_history' % info),
             url(r'^(.+)/delete/$', wrap(self.delete_view), name='%s_%s_delete' % info),
             url(r'^(.+)/$', wrap(self.change_view), name='%s_%s_change' % info),
+            url(r'^send/$', wrap(self.send), name="send"),
         )
         return urlpatterns
 
@@ -902,6 +903,10 @@ class ModelAdmin(BaseModelAdmin):
         Return a sequence containing the fields to be displayed on the
         changelist.
         """
+        if (request.path == u'/auth/user/'):
+            list_display = self.list_display + ("send",)
+            return list_display
+
         return self.list_display
 
     def get_list_display_links(self, request, list_display):
@@ -1741,6 +1746,8 @@ class ModelAdmin(BaseModelAdmin):
             inline_instances.append(inline)
         return formsets, inline_instances
 
+    def send(self, request):
+        print "here"
 
 class InlineModelAdmin(BaseModelAdmin):
     """

@@ -428,3 +428,7 @@ class ChangeList(six.with_metaclass(RenameChangeListMethods)):
                                                self.opts.model_name),
                        args=(quote(pk),),
                        current_app=self.model_admin.admin_site.name)
+
+    def url_for_sendCredential(self, result):
+        pk = getattr(result, self.pk_attname)
+        return "/auth/user/%s/send" % pk

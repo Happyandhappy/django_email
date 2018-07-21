@@ -95,6 +95,14 @@ def result_headers(cl):
     """
     ordering_field_columns = cl.get_ordering_field_columns()
     for i, field_name in enumerate(cl.list_display):
+        if (field_name == "send"):
+            yield {
+                "text": "send",
+                "class_attrib": mark_safe(' class="column-send"'),
+                "sortable": False,
+            }
+            continue
+
         text, attr = label_for_field(
             field_name, cl.model,
             model_admin=cl.model_admin,
@@ -194,81 +202,86 @@ def items_for_result(cl, result, form):
     pk = cl.lookup_opts.pk.attname
     for field_name in cl.list_display:
         row_classes = ['field-%s' % field_name]
-        try:
-            f, attr, value = lookup_field(field_name, result, cl.model_admin)
-        except ObjectDoesNotExist:
-            result_repr = EMPTY_CHANGELIST_VALUE
-        else:
-            if f is None:
-                if field_name == 'action_checkbox':
-                    row_classes = ['action-checkbox']
-                allow_tags = getattr(attr, 'allow_tags', False)
-                boolean = getattr(attr, 'boolean', False)
-                if boolean:
-                    allow_tags = True
-                result_repr = display_for_value(value, boolean)
-                # Strip HTML tags in the resulting text, except if the
-                # function has an "allow_tags" attribute set to True.
-                if allow_tags:
-                    result_repr = mark_safe(result_repr)
-                if isinstance(value, (datetime.date, datetime.time)):
-                    row_classes.append('nowrap')
-            else:
-                if isinstance(f.rel, models.ManyToOneRel):
-                    field_val = getattr(result, f.name)
-                    if field_val is None:
-                        result_repr = EMPTY_CHANGELIST_VALUE
-                    else:
-                        result_repr = field_val
-                else:
-                    result_repr = display_for_field(value, f)
-                if isinstance(f, (models.DateField, models.TimeField, models.ForeignKey)):
-                    row_classes.append('nowrap')
-        if force_text(result_repr) == '':
-            result_repr = mark_safe('&nbsp;')
-        row_class = mark_safe(' class="%s"' % ' '.join(row_classes))
-        # If list_display_links not defined, add the link tag to the first field
-        if link_in_col(first, field_name, cl):
-            table_tag = 'th' if first else 'td'
-            first = False
-
-            # Display link to the result's change_view if the url exists, else
-            # display just the result's representation.
+        if (field_name != "send"):
             try:
-                url = cl.url_for_result(result)
-            except NoReverseMatch:
-                link_or_text = result_repr
+                f, attr, value = lookup_field(field_name, result, cl.model_admin)
+            except ObjectDoesNotExist:
+                result_repr = EMPTY_CHANGELIST_VALUE
             else:
-                url = add_preserved_filters({'preserved_filters': cl.preserved_filters, 'opts': cl.opts}, url)
-                # Convert the pk to something that can be used in Javascript.
-                # Problem cases are long ints (23L) and non-ASCII strings.
-                if cl.to_field:
-                    attr = str(cl.to_field)
+                if f is None:
+                    if field_name == 'action_checkbox':
+                        row_classes = ['action-checkbox']
+                    allow_tags = getattr(attr, 'allow_tags', False)
+                    boolean = getattr(attr, 'boolean', False)
+                    if boolean:
+                        allow_tags = True
+                    result_repr = display_for_value(value, boolean)
+                    # Strip HTML tags in the resulting text, except if the
+                    # function has an "allow_tags" attribute set to True.
+                    if allow_tags:
+                        result_repr = mark_safe(result_repr)
+                    if isinstance(value, (datetime.date, datetime.time)):
+                        row_classes.append('nowrap')
                 else:
-                    attr = pk
-                value = result.serializable_value(attr)
-                result_id = escapejs(value)
-                link_or_text = format_html(
-                    '<a href="{0}"{1}>{2}</a>',
-                    url,
-                    format_html(' onclick="opener.dismissRelatedLookupPopup(window, &#39;{0}&#39;); return false;"', result_id) if cl.is_popup else '',
-                    result_repr)
+                    if isinstance(f.rel, models.ManyToOneRel):
+                        field_val = getattr(result, f.name)
+                        if field_val is None:
+                            result_repr = EMPTY_CHANGELIST_VALUE
+                        else:
+                            result_repr = field_val
+                    else:
+                        result_repr = display_for_field(value, f)
+                    if isinstance(f, (models.DateField, models.TimeField, models.ForeignKey)):
+                        row_classes.append('nowrap')
+            if force_text(result_repr) == '':
+                result_repr = mark_safe('&nbsp;')
+            row_class = mark_safe(' class="%s"' % ' '.join(row_classes))
+            # If list_display_links not defined, add the link tag to the first field
+            if link_in_col(first, field_name, cl):
+                table_tag = 'th' if first else 'td'
+                first = False
 
-            yield format_html('<{0}{1}>{2}</{3}>',
-                              table_tag,
-                              row_class,
-                              link_or_text,
-                              table_tag)
+                # Display link to the result's change_view if the url exists, else
+                # display just the result's representation.
+                try:
+                    url = cl.url_for_result(result)
+                except NoReverseMatch:
+                    link_or_text = result_repr
+                else:
+                    url = add_preserved_filters({'preserved_filters': cl.preserved_filters, 'opts': cl.opts}, url)
+                    # Convert the pk to something that can be used in Javascript.
+                    # Problem cases are long ints (23L) and non-ASCII strings.
+                    if cl.to_field:
+                        attr = str(cl.to_field)
+                    else:
+                        attr = pk
+                    value = result.serializable_value(attr)
+                    result_id = escapejs(value)
+                    link_or_text = format_html(
+                        '<a href="{0}"{1}>{2}</a>',
+                        url,
+                        format_html(' onclick="opener.dismissRelatedLookupPopup(window, &#39;{0}&#39;); return false;"', result_id) if cl.is_popup else '',
+                        result_repr)
+
+                yield format_html('<{0}{1}>{2}</{3}>',
+                                  table_tag,
+                                  row_class,
+                                  link_or_text,
+                                  table_tag)
+            else:
+                # By default the fields come from ModelAdmin.list_editable, but if we pull
+                # the fields out of the form instead of list_editable custom admins
+                # can provide fields on a per request basis
+                if (form and field_name in form.fields and not (
+                        field_name == cl.model._meta.pk.name and
+                        form[cl.model._meta.pk.name].is_hidden)):
+                    bf = form[field_name]
+                    result_repr = mark_safe(force_text(bf.errors) + force_text(bf))
+                yield format_html('<td{0}>{1}</td>', row_class, result_repr)
         else:
-            # By default the fields come from ModelAdmin.list_editable, but if we pull
-            # the fields out of the form instead of list_editable custom admins
-            # can provide fields on a per request basis
-            if (form and field_name in form.fields and not (
-                    field_name == cl.model._meta.pk.name and
-                    form[cl.model._meta.pk.name].is_hidden)):
-                bf = form[field_name]
-                result_repr = mark_safe(force_text(bf.errors) + force_text(bf))
-            yield format_html('<td{0}>{1}</td>', row_class, result_repr)
+            row_class = mark_safe(' class="%s"' % ' '.join(row_classes))
+            yield format_html('<td{0}><a href="{1}">{2}</a></td>', row_class, cl.url_for_sendCredential(result),"Send")
+
     if form and not form[cl.model._meta.pk.name].is_hidden:
         yield format_html('<td>{0}</td>', force_text(form[cl.model._meta.pk.name]))
 
@@ -306,6 +319,7 @@ def result_list(cl):
     """
     headers = list(result_headers(cl))
     num_sorted_fields = 0
+    a = list(results(cl))
     for h in headers:
         if h['sortable'] and h['sorted']:
             num_sorted_fields += 1
@@ -313,7 +327,7 @@ def result_list(cl):
             'result_hidden_fields': list(result_hidden_fields(cl)),
             'result_headers': headers,
             'num_sorted_fields': num_sorted_fields,
-            'results': list(results(cl))}
+            'results': a}
 
 
 @register.inclusion_tag('admin/date_hierarchy.html')
